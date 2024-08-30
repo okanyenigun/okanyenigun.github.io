@@ -7,6 +7,8 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Yenigün</title>
   </head>
@@ -22,9 +24,9 @@
                 <span class="name">Blog</span>
               </label>
               <div class="child-menu">
-                <a href="#">Medium</a>
-                <a href="#">Builtin</a>
-                <a href="#">Originals</a>
+                <a href="#" id="blog-medium">Medium</a>
+                <a href="#" id="blog-builtin">Builtin</a>
+                <a href="#" id="blog-originals">Originals</a>
               </div>
             </div>
             <div>
@@ -34,49 +36,36 @@
                 <span class="name">Side Projects</span>
               </label>
               <div class="child-menu">
-                <a href="#">Library</a>
-                <a href="#">App</a>
-                <a href="#">Model</a>
+                <a href="#" id="sp-library">Library</a>
+                <a href="#" id="sp-app">App</a>
+                <a href="#" id="sp-model">Model</a>
               </div>
             </div>
             <div>
-              <a class="slide" href="#">
+              <a class="slide" href="#" id="load-cv">
                 <span class="element">Cv</span>
                 <span class="name">Resume</span>
               </a>
             </div>
             <div>
-              <a class="slide" href="#">
+              <a class="slide" href="#" id="ask-me">
                 <span class="element">Qa</span>
                 <span class="name">Ask Me!</span>
               </a>
             </div>
             <div>
-              <a class="slide" href="#">
+              <a class="slide" href="#" id="contact">
                 <span class="element">C</span>
                 <span class="name">Contact</span>
               </a>
             </div>
           </div>
         </nav>
-        <div class="social-container">
-          <span>
-            <a class="social-roll github" href="#"></a>
-          </span>
-          <span>
-            <a class="social-roll twitter" href="#"></a>
-          </span>
-          <span>
-            <a class="social-roll linkedin" href="#"></a>
-          </span>
-          <span>
-            <a class="social-roll rss" href="#"></a>
-          </span>
-        </div>
       </header>
     </div>
     <div class="container" id="content"></div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script src="funcs.js" type="module"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>

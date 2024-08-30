@@ -1,0 +1,53 @@
+[
+    {
+        "type": "Package",
+        "title": "nullsweep",
+        "support": "Python Library",
+        "description": "NullSweep is a Python library that detects and handles patterns of missing data in DataFrames.",
+        "tech": "Python",
+        "links": {
+            "PyPi": "https://pypi.org/project/nullsweep/",
+            "GitHub": "https://github.com/okanyenigun/nullsweep"
+        }
+    },
+    {
+        "type": "App",
+        "title": "LessonLearned",
+        "support": "Web App",
+        "description": "A Quora-like app.",
+        "tech": "React, Python, PostgreSQL, NLP",
+        "links": {
+            "_": "Under Development"
+        }
+    },
+    {
+        "type": "App",
+        "title": "Hypes",
+        "support": "Web App",
+        "description": "A news analytics app.",
+        "tech": "React, ExpressJS, MongoDB, NLP, Web Scraping",
+        "links": {
+            "_": "Under Development"
+        }
+    },
+    {
+        "type": "Package",
+        "title": "GeoJobCheck",
+        "support": "Chrome Extension",
+        "description": "Check if the job lets you apply from your location.",
+        "tech": "JavaScript",
+        "links": {
+            "_": "Under Development"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "Sentiment Analysis Model",
+        "support": "Bert Model",
+        "description": "A sentiment analysis model trained on a custom dataset about democracy.",
+        "tech": "Bert, PyTorch",
+        "links": {
+            "_": "Under Development"
+        }
+    }
+]
