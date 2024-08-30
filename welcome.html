@@ -1,0 +1,135 @@
+<div class="welcome-content">
+  <div class="table">
+    <div class="table-cell">
+      <div class="container">
+        <svg
+          class="background-svg"
+          width="400px"
+          height="300px"
+          viewBox="0 0 400 300"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <filter
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+              filterUnits="objectBoundingBox"
+              id="filter-1"
+            >
+              <feOffset
+                dx="0"
+                dy="10"
+                in="SourceAlpha"
+                result="shadowOffsetOuter1"
+              ></feOffset>
+              <feGaussianBlur
+                stdDeviation="2"
+                in="shadowOffsetOuter1"
+                result="shadowBlurOuter1"
+              ></feGaussianBlur>
+              <feColorMatrix
+                values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.095 0"
+                in="shadowBlurOuter1"
+                type="matrix"
+                result="shadowMatrixOuter1"
+              ></feColorMatrix>
+              <feOffset
+                dx="0"
+                dy="1"
+                in="SourceAlpha"
+                result="shadowOffsetInner1"
+              ></feOffset>
+              <feGaussianBlur
+                stdDeviation="1.5"
+                in="shadowOffsetInner1"
+                result="shadowBlurInner1"
+              ></feGaussianBlur>
+              <feComposite
+                in="shadowBlurInner1"
+                in2="SourceAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+                result="shadowInnerInner1"
+              ></feComposite>
+              <feColorMatrix
+                values="0 0 0 0 0.647959184   0 0 0 0 0.549016553   0 0 0 0 0.549016553  0 0 0 0.35 0"
+                in="shadowInnerInner1"
+                type="matrix"
+                result="shadowMatrixInner1"
+              ></feColorMatrix>
+              <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+              </feMerge>
+            </filter>
+          </defs>
+          <g
+            id="Page-1"
+            stroke="none"
+            stroke-width="1"
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <g id="Artboard-1" fill="#1D1E22">
+              <path
+                d="M187.785156,200 L180,232 L66,232 L58.2148437,200 L187.785156,200 Z"
+                id="Rectangle-1"
+                filter="url(#filter-1)"
+              ></path>
+              <path
+                d="M349.760339,49.1234675 L375.905579,277.733833 L199.999999,277.733834 L43.9648432,143.710938 L349.760339,49.1234675 Z"
+                id="Triangle-1"
+                filter="url(#filter-1)"
+              ></path>
+              <path
+                d="M399.8936,96.1889997 L29.4623426,250.140552 L0,36.4302476 L399.8936,96.1889997 Z"
+                id="Triangle-2"
+                filter="url(#filter-1)"
+              ></path>
+            </g>
+          </g>
+        </svg>
+        <div class="container-info">
+          <h1>
+            Hey! <br />I'm <span>Okan Yenigün</span>,
+            <span class="info">Developer, Data Scientist</span>
+          </h1>
+          <div class="box">
+            <a
+              class="box-item"
+              href="https://www.linkedin.com/in/okan-yenigun/"
+              target="_blank"
+              ><img
+                src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-tillvbc0.png"
+                alt="Linkedin"
+                style="width: 30px; height: 25px" /></a
+            ><a
+              class="box-item"
+              href="https://medium.com/@okanyenigun"
+              target="_blank"
+              ><img
+                src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png"
+                alt="Medium"
+                style="width: 36px; height: 29px"
+            /></a>
+            <a
+              class="box-item"
+              href="https://huggingface.co/yeniguno"
+              target="_blank"
+              ><img
+                src="https://cdn-lfs.huggingface.co/repos/96/a2/96a2c8468c1546e660ac2609e49404b8588fcf5a748761fa72c154b2836b4c83/942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27hf-logo.svg%3B+filename%3D%22hf-logo.svg%22%3B&response-content-type=image%2Fsvg%2Bxml&Expires=1725278004&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNTI3ODAwNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy85Ni9hMi85NmEyYzg0NjhjMTU0NmU2NjBhYzI2MDllNDk0MDRiODU4OGZjZjVhNzQ4NzYxZmE3MmMxNTRiMjgzNmI0YzgzLzk0MmNhZDFjY2RhOTA1YWM1YTY1OWRmZDJkNzhiMzQ0ZmNjZmI4NGE4YTNhYzM3MjFlMDhmNDg4MjA1NjM4YTA%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=IfFkM5LZOj145fXAj0u6o0dKggCym41ozbVQhZrSdaSpb1lkYbur%7EabKGOjbqzveLVWGAleSlVH54AzWQgg%7EWnAW7--YXFfQeh1O6NBelNoDJt5KpjOF8T2LQVLDYMmqMv0lOZr-tVpSAmys5qPyToIADJdwlKfwIU3kccPlzOOjI3AGUZ6aX1p6fZz6ddUetx4z-LTqoF0-s1OGvGfg0DoxwMQNbn-0NAUD0EzCBVbqTwz-TZUGGBiNHsNQDzoD5edJcbIWUJB8FDfylw2%7E-35jxAuF8m5fFQi%7EyXbNU7cggkPRjcIpFRkNF2I9E%7EC8QGsJAt-JKRjtazu5VZ8q5Q__&Key-Pair-Id=K3ESJI6DHPFC7"
+                alt="Hugging Face"
+                style="width: 36px; height: 30px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
