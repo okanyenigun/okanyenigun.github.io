@@ -1,5 +1,16 @@
 [
   {
+    "Title": "Convolutional Neural Networks Explained: A Hands-On Guide",
+    "Subtitle": "Learn How CNNs Work, Train, and Make Predictions in Image Classification",
+    "Topic": "Deep Learning",
+    "Tag1": "Deep Learning",
+    "Tag2": "Artificial Intelligence",
+    "Tag3": "Machine Learning",
+    "Tag4": "Computer Vision",
+    "Tag5": "Convolutional Network",
+    "URL": "https://medium.com/@okanyenigun/convolutional-neural-networks-explained-a-hands-on-guide-7de893629686"
+  },
+  {
     "Title": "LangChain in Chains #37: HuggingFacePipeline",
     "Subtitle": "",
     "Topic": "Langchain",
