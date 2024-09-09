@@ -47,7 +47,7 @@
         "description": "A sentiment analysis model trained on a custom dataset about democracy.",
         "tech": "Bert, PyTorch",
         "links": {
-            "_": "Under Development"
+            "Hugging Face": "https://huggingface.co/yeniguno/democracy-sentiment-analysis-turkish-roberta"
         }
     }
 ]
