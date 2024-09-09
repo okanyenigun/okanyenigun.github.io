@@ -1,5 +1,49 @@
 [
   {
+    "Title": "SetFit for Better Zero-Shot Results",
+    "Subtitle": "Zero-Shot Made Better with SetFit",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "BERT",
+    "Tag3": "Fine Tuning",
+    "Tag4": "Text Classification",
+    "Tag5": "Hugging Face",
+    "URL": "https://medium.com/@okanyenigun/setfit-for-better-zero-shot-results-e8fafc28c67b"
+  },
+  {
+    "Title": "LeNet: A Foundational Step in Deep Learning History",
+    "Subtitle": "LeNet-5: Revolutionizing Image Recognition with Deep Learning",
+    "Topic": "Deep Learning",
+    "Tag1": "Computer Vision",
+    "Tag2": "Neural Networks",
+    "Tag3": "Deep Learning",
+    "Tag4": "Image Processing",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/python-in-plain-english/lenet-a-foundational-step-in-deep-learning-history-f026f33ebce3"
+  },
+  {
+    "Title": "LangChain in Chains #38: Function Calling",
+    "Subtitle": "Function Calling in AI: Expanding LLM Capabilities",
+    "Topic": "Langchain",
+    "Tag1": "Artificial Intelligence",
+    "Tag2": "Langchain",
+    "Tag3": "Llm",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "NLP",
+    "URL": "https://medium.com/towardsdev/langchain-in-chains-38-function-calling-b7e9de9ccab1"
+  },
+  {
+    "Title": "Run Gemma 2: 2B — 9B — 27B",
+    "Subtitle": "Step-by-Step Guide to Running Gemma 2 2B, 9B, and 27B Models",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Gemini",
+    "Tag4": "Gemma",
+    "Tag5": "Google",
+    "URL": "https://medium.com/aws-tip/run-gemma-2-2b-9b-27b-763e9c69b003"
+  },
+  {
     "Title": "Convolutional Neural Networks Explained: A Hands-On Guide",
     "Subtitle": "Learn How CNNs Work, Train, and Make Predictions in Image Classification",
     "Topic": "Deep Learning",
