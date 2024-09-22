@@ -49,5 +49,15 @@
         "links": {
             "Hugging Face": "https://huggingface.co/yeniguno/democracy-sentiment-analysis-turkish-roberta"
         }
+    },
+    {
+        "type": "Model",
+        "title": "ABSA Model",
+        "support": "Bert Model",
+        "description": "An ABSA model fine-tuned on a custom dataset in Turkish.",
+        "tech": "Bert, PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/absa-turkish-bert-dbmdz"
+        }
     }
 ]

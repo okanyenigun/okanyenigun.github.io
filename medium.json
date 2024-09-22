@@ -1,5 +1,71 @@
 [
   {
+    "Title": "Scala #14: Spark: Pipeline",
+    "Subtitle": "An End-to-End ML Pipeline Example in Spark",
+    "Topic": "Scala",
+    "Tag1": "Scala",
+    "Tag2": "Spark",
+    "Tag3": "Machine Learning",
+    "Tag4": "Java",
+    "Tag5": "Data Science",
+    "URL": "https://medium.com/@okanyenigun/scala-14-spark-pipeline-77f237d1e331"
+  },
+  {
+    "Title": "LangChain in Chains #40: Knowledge Graphs",
+    "Subtitle": "Integrating Large Language Models with Neo4j for Dynamic Knowledge Graphs",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "NLP",
+    "Tag3": "Knowledge Graph",
+    "Tag4": "Machine Learning",
+    "Tag5": "Neo4j",
+    "URL": "https://medium.com/devops-dev/langchain-in-chains-40-knowledge-graphs-d647bd568cfe"
+  },
+  {
+    "Title": "Gemini API: A Practical Usage Guide",
+    "Subtitle": "Exploring the Gemini API for Developers",
+    "Topic": "LLM",
+    "Tag1": "Gemini",
+    "Tag2": "Gemma",
+    "Tag3": "Google",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "ChatGPT",
+    "URL": "https://medium.com/towardsdev/gemini-api-a-practical-usage-guide-f8bc0ab1a57f"
+  },
+  {
+    "Title": "AlexNet Explained: A Step-by-Step Guide",
+    "Subtitle": "Guide to AlexNet: Architecture, Layers, and Practical Usage",
+    "Topic": "Deep Learning",
+    "Tag1": "Convolutional Network",
+    "Tag2": "Neural Networks",
+    "Tag3": "Computer Vision",
+    "Tag4": "Deep Learning",
+    "Tag5": "Machine Learning",
+    "URL": "https://medium.com/gitconnected/alexnet-explained-a-step-by-step-guide-93870b45126b"
+  },
+  {
+    "Title": "LangChain in Chains #39: Custom Tools",
+    "Subtitle": "Empowering AI Agents with Custom Tools in LangChain",
+    "Topic": "Langchain",
+    "Tag1": "NLP",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Langchain",
+    "Tag4": "Agents",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/aws-tip/langchain-in-chains-39-custom-tools-ca5cda8bacde"
+  },
+  {
+    "Title": "Using MICE for Robust Data Imputation",
+    "Subtitle": "Multivariate Imputation by Chained Equations (MICE)",
+    "Topic": "Data Science",
+    "Tag1": "Data Science",
+    "Tag2": "Machine Learning",
+    "Tag3": "Data",
+    "Tag4": "Sklearn",
+    "Tag5": "Data Analysis",
+    "URL": "https://medium.com/@okanyenigun/using-mice-for-robust-data-imputation-ae996d352cb3"
+  },
+  {
     "Title": "SetFit for Better Zero-Shot Results",
     "Subtitle": "Zero-Shot Made Better with SetFit",
     "Topic": "NLP",
