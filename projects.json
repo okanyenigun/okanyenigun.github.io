@@ -31,7 +31,7 @@
         }
     },
     {
-        "type": "Extension",
+        "type": "Package",
         "title": "GeoJobCheck",
         "support": "Chrome Extension",
         "description": "Check if the job ad in Linkedin lets you apply from your location.",
