@@ -59,5 +59,16 @@
         "links": {
             "Hugging Face": "https://huggingface.co/yeniguno/absa-turkish-bert-dbmdz"
         }
+    },
+    {
+        "type": "Package",
+        "title": "modulift",
+        "support": "Python Library",
+        "description": "A powerful search tool for discovering Python packages based on user queries.",
+        "tech": "Python",
+        "links": {
+            "PyPi": "https://pypi.org/project/modulift/",
+            "GitHub": "https://github.com/okanyenigun/modulift"
+        }
     }
 ]

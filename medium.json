@@ -1,5 +1,203 @@
 [
   {
+    "Title": "Evaluating LLMs: The Ultimate Guide to Performance Metrics",
+    "Subtitle": "Understanding LLM Evaluation: Key Metrics to Measure Success",
+    "Topic": "Llm",
+    "Tag1": "Llm",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Artificial Intelligence",
+    "Tag4": "NLP",
+    "Tag5": "Machine Learning",
+    "URL": "https://medium.com/@okanyenigun/evaluating-llms-the-ultimate-guide-to-performance-metrics-c819f8f0a962"
+  },
+  {
+    "Title": "LangChain in Chains #46: Step-Back Prompting",
+    "Subtitle": "Take A Step Back: Evoking Reasoning Via Abstraction",
+    "Topic": "Langchain",
+    "Tag1": "Prompt Engineering",
+    "Tag2": "Prompt",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Llm",
+    "Tag5": "Langchain",
+    "URL": "https://medium.com/@okanyenigun/langchain-in-chains-46-step-back-prompting-1211a6705a33"
+  },
+  {
+    "Title": "Prompt Engineering Essentials: Five Techniques to Improve AI Performance",
+    "Subtitle": "Prompt Engineering 101: Five Core Techniques for Better AI Results",
+    "Topic": "Llm",
+    "Tag1": "Prompt Engineering",
+    "Tag2": "Llm",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Prompt",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/gitconnected/prompt-engineering-essentials-five-techniques-to-improve-ai-performance-22a6e24a61fb"
+  },
+  {
+    "Title": "Prompt Caching 101: How LLMs Save Time and Compute with Smart Reuse",
+    "Subtitle": "A Beginner's Guide to Caching in AI: Making LLMs Faster with Prompt and KV Caches",
+    "Topic": "Llm",
+    "Tag1": "Llm",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Transformers",
+    "Tag4": "Caching",
+    "Tag5": "Prompt Engineering",
+    "URL": "https://medium.com/gitconnected/prompt-caching-101-how-llms-save-time-and-compute-with-smart-reuse-98f340b7dc3a"
+  },
+  {
+    "Title": "LangChain in Chains #45: Web Scraping with LLMs",
+    "Subtitle": "Integrating LLMs into Web Scraping Workflows Using LangChain",
+    "Topic": "Llm",
+    "Tag1": "Langchain",
+    "Tag2": "Langchain Agents",
+    "Tag3": "Web Scraping",
+    "Tag4": "Llm",
+    "Tag5": "Data Mining",
+    "URL": "https://medium.com/dev-genius/langchain-in-chains-45-web-scraping-with-llms-8c4192bde030"
+  },
+  {
+    "Title": "LM Studio: Your Local Solution for AI Models",
+    "Subtitle": "Getting Started with LM Studio: Run LLMs Locally",
+    "Topic": "Llm",
+    "Tag1": "Llm",
+    "Tag2": "Llm Applications",
+    "Tag3": "Lmops",
+    "Tag4": "Generative AI Use Cases",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/aws-tip/lm-studio-your-local-solution-for-ai-models-39ec61a3e863"
+  },
+  {
+    "Title": "Grok API",
+    "Subtitle": "",
+    "Topic": "Llm",
+    "Tag1": "Xai",
+    "Tag2": "Twitter",
+    "Tag3": "Llm",
+    "Tag4": "API",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/@okanyenigun/grok-api-f180e5a7fa67"
+  },
+  {
+    "Title": "LangChain in Chains #44: Groq",
+    "Subtitle": "Using the Groq Endpoint in LangChain",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "Groq",
+    "Tag3": "Llm",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "API",
+    "URL": "https://medium.com/aws-tip/langchain-in-chains-44-groq-5c5effa1e57b"
+  },
+  {
+    "Title": "Meet Groq: Making Large Language Models Lightning-Fast",
+    "Subtitle": "The Groq Advantage",
+    "Topic": "Llm",
+    "Tag1": "Llm",
+    "Tag2": "Cloud",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Groq",
+    "Tag5": "API",
+    "URL": "https://medium.com/towardsdev/meet-groq-making-large-language-models-lightning-fast-0f8a885073b9"
+  },
+  {
+    "Title": "Python Trading Guide: Moving Average",
+    "Subtitle": "Understanding Moving Averages in Trading",
+    "Topic": "Algorithmic Trading",
+    "Tag1": "Algorithmic Trading",
+    "Tag2": "Crypto",
+    "Tag3": "Quant",
+    "Tag4": "Finance",
+    "Tag5": "Trading Bot",
+    "URL": "https://medium.com/insiderfinance/python-trading-guide-moving-average-be38d0d2b2da"
+  },
+  {
+    "Title": "LangChain in Chains #43: A Custom RAG Retrieval Tool",
+    "Subtitle": "Implementing a Retriever Tool with Langchain and LLMs",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "Agents",
+    "Tag3": "Llm",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "RAG",
+    "URL": "https://medium.com/ai-mind-labs/langchain-in-chains-43-a-custom-rag-retrieval-tool-05a2c28156cd"
+  },
+  {
+    "Title": "Lida AI Explained: Hands-On Tutorials for Data Science Enthusiasts",
+    "Subtitle": "Introducing Lida AI: A Practical Tutorial for Unlocking Powerful Data Insights",
+    "Topic": "Llm",
+    "Tag1": "Llm",
+    "Tag2": "Data Science",
+    "Tag3": "Data Analysis",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Data Visualization",
+    "URL": "https://medium.com/faun/lida-ai-explained-hands-on-tutorials-for-data-science-enthusiasts-0c159fc7737b"
+  },
+  {
+    "Title": "Learning Go #7: Flow & Loop",
+    "Subtitle": "Flow Control",
+    "Topic": "Go",
+    "Tag1": "Golang",
+    "Tag2": "Go",
+    "Tag3": "Google",
+    "Tag4": "Programming",
+    "Tag5": "Programming Languages",
+    "URL": "https://medium.com/dev-genius/learning-go-7-flow-loop-e979f37f888a"
+  },
+  {
+    "Title": "LangChain in Chains #42: Kuzu",
+    "Subtitle": "Integrating Kuzu Graph Database with LangChain",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "Graph",
+    "Tag3": "Graph Database",
+    "Tag4": "Graph Machine Learning",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/@okanyenigun/langchain-in-chains-42-kuzu-a09f6eb0f287"
+  },
+  {
+    "Title": "Leveraging NLI for Zero-Shot Text Classification",
+    "Subtitle": "How to Enhance Zero-Shot Classification with Natural Language Inference",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "Deep Learning",
+    "Tag3": "Fine Tuning",
+    "Tag4": "Zero Shot Learning",
+    "Tag5": "Hugging Face",
+    "URL": "https://medium.com/ai-in-plain-english/leveraging-nli-for-zero-shot-text-classification-4631332b6748"
+  },
+  {
+    "Title": "Bayesian Linear Regression: Merging Probability with Predictive Modeling",
+    "Subtitle": "Uncertainty in Focus: Exploring Linear Regression with Bayesian Methods",
+    "Topic": "Statistics",
+    "Tag1": "Statistics",
+    "Tag2": "Bayesian Statistics",
+    "Tag3": "Linear Regression",
+    "Tag4": "Probability",
+    "Tag5": "Statistical Analysis",
+    "URL": "https://medium.com/stackademic/bayesian-linear-regression-merging-probability-with-predictive-modeling-06f86ac0124c"
+  },
+  {
+    "Title": "LangChain in Chains #41: Advanced RAG",
+    "Subtitle": "Naive & Advanced RAG Techniques",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "NLP",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "RAG",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/ai-mind-labs/langchain-in-chains-41-advanced-rag-19f2a53f67fb"
+  },
+  {
+    "Title": "From Words to Understanding: The Role of Natural Language Inference in AI",
+    "Subtitle": "Beyond Words: How NLI Helps AI Understand Sentence Relationships",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "NLI",
+    "Tag3": "Deep Learning",
+    "Tag4": "Machine Learning",
+    "Tag5": "Bert",
+    "URL": "https://medium.com/ai-in-plain-english/from-words-to-understanding-the-role-of-natural-language-inference-in-ai-e138b26120c6"
+  },
+  {
     "Title": "Scala #14: Spark: Pipeline",
     "Subtitle": "An End-to-End ML Pipeline Example in Spark",
     "Topic": "Scala",
@@ -70,7 +268,7 @@
     "Subtitle": "Zero-Shot Made Better with SetFit",
     "Topic": "NLP",
     "Tag1": "NLP",
-    "Tag2": "BERT",
+    "Tag2": "Bert",
     "Tag3": "Fine Tuning",
     "Tag4": "Text Classification",
     "Tag5": "Hugging Face",
@@ -99,7 +297,7 @@
     "URL": "https://medium.com/towardsdev/langchain-in-chains-38-function-calling-b7e9de9ccab1"
   },
   {
-    "Title": "Run Gemma 2: 2B — 9B — 27B",
+    "Title": "Run Gemma 2: 2B - 9B - 27B",
     "Subtitle": "Step-by-Step Guide to Running Gemma 2 2B, 9B, and 27B Models",
     "Topic": "LLM",
     "Tag1": "Llm",
@@ -297,7 +495,7 @@
     "URL": "https://medium.com/devops-dev/langchain-in-chains-32-image-to-text-c2e62601be49?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Run Llama 3.1: 8B \u2014 70B \u2014 450B",
+    "Title": "Run Llama 3.1: 8B - 70B - 450B",
     "Subtitle": "Step-by-Step Guide to Running LLama 3.1 8B, 70B, and 405B Models",
     "Topic": "LLM",
     "Tag1": "Generative Ai Tools",
@@ -308,8 +506,8 @@
     "URL": "https://medium.com/faun/run-llama-3-1-8b-70b-450b-67ff9c8ab276?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Polars 101: Getting Started with Python\u2019s Next-Gen DataFrame Library",
-    "Subtitle": "Leveraging Rust\u2019s Performance in Python with Polars",
+    "Title": "Polars 101: Getting Started with Python's Next-Gen DataFrame Library",
+    "Subtitle": "Leveraging Rust's Performance in Python with Polars",
     "Topic": "Data Science",
     "Tag1": "Data Science",
     "Tag2": "Machine Learning",
@@ -342,7 +540,7 @@
   },
   {
     "Title": "Introduction to Vaex: Handling Billions of Rows with Ease",
-    "Subtitle": "Boost Your Data Analysis with Vaex\u2019s Powerful Features",
+    "Subtitle": "Boost Your Data Analysis with Vaex's Powerful Features",
     "Topic": "Data Science",
     "Tag1": "Data Science",
     "Tag2": "Python",
@@ -441,7 +639,7 @@
   },
   {
     "Title": "Getting Started with Apache Airflow for Data Workflows",
-    "Subtitle": "Airflow Essentials: A Beginner\u2019s Guide",
+    "Subtitle": "Airflow Essentials: A Beginner's Guide",
     "Topic": "Software Engineering",
     "Tag1": "Airflow",
     "Tag2": "Apache Airflow",
@@ -506,8 +704,8 @@
     "URL": "https://medium.com/towardsdev/exploring-hugging-face-image-segmentation-b7718ed6974f?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Behind the Hype: A DJ\u2019s Perspective on Suno AI Music Maker",
-    "Subtitle": "A DJ and AI Engineer\u2019s Insights on the Future of Music Production",
+    "Title": "Behind the Hype: A DJ's Perspective on Suno AI Music Maker",
+    "Subtitle": "A DJ and AI Engineer's Insights on the Future of Music Production",
     "Topic": "Artificial Intelligence",
     "Tag1": "Artificial Intelligence",
     "Tag2": "Suno",
@@ -639,7 +837,7 @@
   },
   {
     "Title": "Exploring Hugging Face: Text-to-Image",
-    "Subtitle": "Exploring Hugging Face\u2019s Text-to-Image Models: A Gateway to AI-Driven Artistry",
+    "Subtitle": "Exploring Hugging Face's Text-to-Image Models: A Gateway to AI-Driven Artistry",
     "Topic": "Hugging Face",
     "Tag1": "Generative Ai Tools",
     "Tag2": "Hugging Face",
@@ -782,7 +980,7 @@
   },
   {
     "Title": "LangChain in Chains #17: Retrievers",
-    "Subtitle": "A Closer Look at LangChain\u2019s Retriever Module",
+    "Subtitle": "A Closer Look at LangChain's Retriever Module",
     "Topic": "Langchain",
     "Tag1": "NLP",
     "Tag2": "Langchain",
@@ -925,7 +1123,7 @@
   },
   {
     "Title": "LangChain in Chains #12: Story Generator Chain App",
-    "Subtitle": "Demonstrating LangChain\u2019s Chains",
+    "Subtitle": "Demonstrating LangChain's Chains",
     "Topic": "Langchain",
     "Tag1": "NLP",
     "Tag2": "Artificial Intelligence",
@@ -1090,7 +1288,7 @@
   },
   {
     "Title": "VAR: Vector Auto-Regressive Model in Time Series",
-    "Subtitle": "A Beginner\u2019s Guide to Vector Auto-Regressive Models and Their Applications",
+    "Subtitle": "A Beginner's Guide to Vector Auto-Regressive Models and Their Applications",
     "Topic": "Time Series",
     "Tag1": "Time Series Forecasting",
     "Tag2": "Time Series Analysis",
@@ -1156,7 +1354,7 @@
   },
   {
     "Title": "H2O AutoML in Python",
-    "Subtitle": "Harnessing Python\u2019s H2O AutoML for Advanced Machine Learning Solutions",
+    "Subtitle": "Harnessing Python's H2O AutoML for Advanced Machine Learning Solutions",
     "Topic": "Machine Learning",
     "Tag1": "Machine Learning",
     "Tag2": "Python",
@@ -1222,7 +1420,7 @@
   },
   {
     "Title": "Evidently AI: Your Python Companion for Data Drift Detection and Analysis",
-    "Subtitle": "A Python User\u2019s Guide to Leveraging Evidently AI for Model Monitoring",
+    "Subtitle": "A Python User's Guide to Leveraging Evidently AI for Model Monitoring",
     "Topic": "Data Science",
     "Tag1": "Machine Learning",
     "Tag2": "Artificial Intelligence",
@@ -1342,7 +1540,7 @@
     "URL": "https://medium.com/towardsdev/exploring-hugging-face-an-introduction-0fee3c59e307?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "The Python Programmer\u2019s Toolkit: Essential Libraries for Translation",
+    "Title": "The Python Programmer's Toolkit: Essential Libraries for Translation",
     "Subtitle": "Translation Libraries in Python",
     "Topic": "Python",
     "Tag1": "Python",
@@ -1925,7 +2123,7 @@
     "URL": "https://medium.com/towardsdev/clustering-with-gaussian-mixture-models-c2c3ecdc6640?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Forecasting Intermittent Demand with Croston\u2019s Method",
+    "Title": "Forecasting Intermittent Demand with Croston's Method",
     "Subtitle": "Implementation in Python",
     "Topic": "Time Series",
     "Tag1": "Time Series Forecasting",
@@ -2288,7 +2486,7 @@
     "URL": "https://medium.com/dev-genius/django-template-tags-and-filters-d3564ca64d02?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Support Vector Machines (SVMs): A Beginner\u2019s Guide",
+    "Title": "Support Vector Machines (SVMs): A Beginner's Guide",
     "Subtitle": "Explaining SVMs",
     "Topic": "Machine Learning",
     "Tag1": "Machine Learning",
@@ -2497,7 +2695,7 @@
     "URL": "https://medium.com/aws-tip/introducing-scrapy-the-powerful-python-library-for-efficient-web-scraping-ef4557ec6d2?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Type Hints CanImproveYour Python Code: A Beginner\u2019s Guide",
+    "Title": "Type Hints CanImproveYour Python Code: A Beginner's Guide",
     "Subtitle": "Maximizing Code Readability, Maintainability, and Performance with Type Hints",
     "Topic": "Python",
     "Tag1": "Python",
@@ -2531,7 +2729,7 @@
   },
   {
     "Title": "Buckle Up Your For-Loops, Or Speeding Up Iterations in Python",
-    "Subtitle": "Faster Alternatives to Python\u2019s Standard For Loop Implementations",
+    "Subtitle": "Faster Alternatives to Python's Standard For Loop Implementations",
     "Topic": "Python",
     "Tag1": "Python",
     "Tag2": "Iterators",
@@ -2662,7 +2860,7 @@
     "URL": "https://medium.com/towardsdev/hexagonal-binned-plots-matplotlib-seaborn-1e681ae382e0?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Keep Loggin\u2019, Loggin\u2019, Loggin\u2019, Loggin\u2019 in Python",
+    "Title": "Keep Loggin', Loggin', Loggin', Loggin' in Python",
     "Subtitle": "An Introduction to Logging in Python",
     "Topic": "Python",
     "Tag1": "Python",
@@ -2761,7 +2959,7 @@
     "URL": "https://medium.com/towardsdev/what-is-a-voxel-and-how-to-display-them-5bc3a76521e5?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "RESTful Django \u2014 Django REST Framework",
+    "Title": "RESTful Django - Django REST Framework",
     "Subtitle": "Creating a Rest API in Django",
     "Topic": "Django",
     "Tag1": "Django",
@@ -2806,7 +3004,7 @@
   },
   {
     "Title": "Smart Aspects of CatBoost Algorithm",
-    "Subtitle": "Introduction and Implementation of Yandex\u2019s CatBoost ML Model",
+    "Subtitle": "Introduction and Implementation of Yandex's CatBoost ML Model",
     "Topic": "Machine Learning",
     "Tag1": "Catboost",
     "Tag2": "Python",
@@ -2915,7 +3113,7 @@
     "URL": "https://medium.com/ai-mind-labs/gradient-boosting-for-classification-f9a93381e37c?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Detect Your Cat\u2019s Face with OpenCV",
+    "Title": "Detect Your Cat's Face with OpenCV",
     "Subtitle": "OpenCV Cat Face Detection Code in Python",
     "Topic": "Computer Vision",
     "Tag1": "Python",
@@ -2970,7 +3168,7 @@
     "URL": "https://medium.com/dev-genius/adaboost-from-scratch-f8979d961948?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Warping an Object\u2019s Perspective with OpenCV in C++",
+    "Title": "Warping an Object's Perspective with OpenCV in C++",
     "Subtitle": "Warp Perspective of an Object in an Image with OpenCV in C++",
     "Topic": "Image Processing",
     "Tag1": "Opencv",
@@ -3037,7 +3235,7 @@
   },
   {
     "Title": "Create a Choropleth Map in Python",
-    "Subtitle": "Let\u2019s Build a Choropleth Map via Plotly",
+    "Subtitle": "Let's Build a Choropleth Map via Plotly",
     "Topic": "Data Science",
     "Tag1": "Python",
     "Tag2": "Data Visualization",
@@ -3048,7 +3246,7 @@
   },
   {
     "Title": "How to Build a Marimekko Chart in Python",
-    "Subtitle": "Let\u2019s Create a Marimekko Chart to Visualize Our Data",
+    "Subtitle": "Let's Create a Marimekko Chart to Visualize Our Data",
     "Topic": "Data Science",
     "Tag1": "Python",
     "Tag2": "Data Visualization",
@@ -3465,8 +3663,8 @@
     "URL": "https://medium.com/python-in-plain-english/how-to-handle-missing-values-ef4abd02673f?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "How to Implement \u201cPlease, Wait!\u201d Animation Using Ajax in Django",
-    "Subtitle": "A guide on implementing the \u201cPlease, Wait\u201d animations in Machine Learning Web Applications",
+    "Title": "How to Implement Please, Wait! Animation Using Ajax in Django",
+    "Subtitle": "A guide on implementing the Please, Wait animations in Machine Learning Web Applications",
     "Topic": "Django",
     "Tag1": "Django",
     "Tag2": "Ajax",
@@ -3554,7 +3752,7 @@
   },
   {
     "Title": "Decision Tree Parameter Explanations",
-    "Subtitle": "Sklearn\u2019s Decision Tree Parameter Explanations",
+    "Subtitle": "Sklearn's Decision Tree Parameter Explanations",
     "Topic": "Machine Learning",
     "Tag1": "Machine Learning",
     "Tag2": "Sklearn",
@@ -3608,7 +3806,7 @@
     "URL": "https://medium.com/towardsdev/solid-principles-explained-635ad3608b20?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "CRUD Operations on Essential RDBMS\u2019 in Python",
+    "Title": "CRUD Operations on Essential RDBMS' in Python",
     "Subtitle": "SQLite, Mysql, PostgreSQL, Microsoft SQL Server",
     "Topic": "Python",
     "Tag1": "Rdbms",
@@ -3674,8 +3872,8 @@
     "URL": "https://medium.com/towardsdev/the-most-used-feature-selection-methods-c117273759f8?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Pearson\u2019s Correlation",
-    "Subtitle": "Simplified Pearson\u2019s Correlation in Python",
+    "Title": "Pearson's Correlation",
+    "Subtitle": "Simplified Pearson's Correlation in Python",
     "Topic": "Statistics",
     "Tag1": "Python",
     "Tag2": "Statistics",
@@ -3685,8 +3883,8 @@
     "URL": "https://medium.com/towardsdev/pearsons-correlation-d7cc0890f646?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Spearman\u2019s Rank Correlation",
-    "Subtitle": "Simplified Spearman\u2019s Rank Correlation in Python",
+    "Title": "Spearman's Rank Correlation",
+    "Subtitle": "Simplified Spearman's Rank Correlation in Python",
     "Topic": "Statistics",
     "Tag1": "Spearman Correlation",
     "Tag2": "Spearman",
