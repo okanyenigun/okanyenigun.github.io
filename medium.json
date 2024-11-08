@@ -2,7 +2,7 @@
   {
     "Title": "Evaluating LLMs: The Ultimate Guide to Performance Metrics",
     "Subtitle": "Understanding LLM Evaluation: Key Metrics to Measure Success",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Generative Ai Tools",
     "Tag3": "Artificial Intelligence",
@@ -24,7 +24,7 @@
   {
     "Title": "Prompt Engineering Essentials: Five Techniques to Improve AI Performance",
     "Subtitle": "Prompt Engineering 101: Five Core Techniques for Better AI Results",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Prompt Engineering",
     "Tag2": "Llm",
     "Tag3": "Generative Ai Tools",
@@ -35,7 +35,7 @@
   {
     "Title": "Prompt Caching 101: How LLMs Save Time and Compute with Smart Reuse",
     "Subtitle": "A Beginner's Guide to Caching in AI: Making LLMs Faster with Prompt and KV Caches",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Generative Ai Tools",
     "Tag3": "Transformers",
@@ -46,7 +46,7 @@
   {
     "Title": "LangChain in Chains #45: Web Scraping with LLMs",
     "Subtitle": "Integrating LLMs into Web Scraping Workflows Using LangChain",
-    "Topic": "Llm",
+    "Topic": "Langchain",
     "Tag1": "Langchain",
     "Tag2": "Langchain Agents",
     "Tag3": "Web Scraping",
@@ -57,7 +57,7 @@
   {
     "Title": "LM Studio: Your Local Solution for AI Models",
     "Subtitle": "Getting Started with LM Studio: Run LLMs Locally",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Llm Applications",
     "Tag3": "Lmops",
@@ -68,7 +68,7 @@
   {
     "Title": "Grok API",
     "Subtitle": "",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Xai",
     "Tag2": "Twitter",
     "Tag3": "Llm",
@@ -90,7 +90,7 @@
   {
     "Title": "Meet Groq: Making Large Language Models Lightning-Fast",
     "Subtitle": "The Groq Advantage",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Cloud",
     "Tag3": "Generative Ai Tools",
@@ -123,7 +123,7 @@
   {
     "Title": "Lida AI Explained: Hands-On Tutorials for Data Science Enthusiasts",
     "Subtitle": "Introducing Lida AI: A Practical Tutorial for Unlocking Powerful Data Insights",
-    "Topic": "Llm",
+    "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Data Science",
     "Tag3": "Data Analysis",
@@ -3663,8 +3663,8 @@
     "URL": "https://medium.com/python-in-plain-english/how-to-handle-missing-values-ef4abd02673f?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "How to Implement Please, Wait! Animation Using Ajax in Django",
-    "Subtitle": "A guide on implementing the Please, Wait animations in Machine Learning Web Applications",
+    "Title": "How to Implement 'Please, Wait!' Animation Using Ajax in Django",
+    "Subtitle": "A guide on implementing the 'Please, Wait' animations in Machine Learning Web Applications",
     "Topic": "Django",
     "Tag1": "Django",
     "Tag2": "Ajax",
