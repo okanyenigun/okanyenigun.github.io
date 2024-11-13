@@ -1,5 +1,27 @@
 [
   {
+    "Title": "LangChain in Chains #47: HyDE",
+    "Subtitle": "Hypothetical Document Embedding",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "Prompt",
+    "Tag3": "Prompt Engineering",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "RAG",
+    "URL": "https://medium.com/dev-genius/langchain-in-chains-47-hyde-7f911879cf7e"
+  },
+  {
+    "Title": "RAGAS: A Framework for Accurate and Faithful RAG Model Evaluation",
+    "Subtitle": "Elevating Retrieval-Augmented Generation Evaluation for LLMs",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "RAG",
+    "Tag3": "Langchain",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Evaluation Metric",
+    "URL": "https://pub.aimind.so/ragas-a-framework-for-accurate-and-faithful-rag-model-evaluation-5380b73d45b5"
+  },
+  {
     "Title": "Evaluating LLMs: The Ultimate Guide to Performance Metrics",
     "Subtitle": "Understanding LLM Evaluation: Key Metrics to Measure Success",
     "Topic": "LLM",

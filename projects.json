@@ -70,5 +70,16 @@
             "PyPi": "https://pypi.org/project/modulift/",
             "GitHub": "https://github.com/okanyenigun/modulift"
         }
+    },
+    {
+        "type": "Package",
+        "title": "optimx",
+        "support": "Python Library",
+        "description": "An optimization package for solving classic optimization problems using various algorithms.",
+        "tech": "Python",
+        "links": {
+            "PyPi": "https://pypi.org/project/optimx/",
+            "GitHub": "https://github.com/okanyenigun/optimx"
+        }
     }
 ]
