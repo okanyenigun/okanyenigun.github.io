@@ -11,26 +11,6 @@
         }
     },
     {
-        "type": "App",
-        "title": "LessonLearned",
-        "support": "Web App",
-        "description": "A Quora-like app.",
-        "tech": "React, Python, PostgreSQL, NLP",
-        "links": {
-            "_": "Under Development"
-        }
-    },
-    {
-        "type": "App",
-        "title": "Hypes",
-        "support": "Web App",
-        "description": "A news analytics app.",
-        "tech": "React, ExpressJS, MongoDB, NLP, Web Scraping",
-        "links": {
-            "_": "Under Development"
-        }
-    },
-    {
         "type": "Package",
         "title": "GeoJobCheck",
         "support": "Chrome Extension",
@@ -80,6 +60,16 @@
         "links": {
             "PyPi": "https://pypi.org/project/optimx/",
             "GitHub": "https://github.com/okanyenigun/optimx"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "NLI Zero Shot Model",
+        "support": "DeBerta Model",
+        "description": "An NLI | zero-shot classification model fine-tuned on a custom dataset in Turkish.",
+        "tech": "Bert, PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/nli-deberta-zero-shot-reviews-turkish-v1"
         }
     }
 ]
