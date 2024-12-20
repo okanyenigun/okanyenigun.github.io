@@ -1,5 +1,49 @@
 [
   {
+    "Title": "NLTK #3: Processing Text",
+    "Subtitle": "Processing Raw Text",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "Nltk",
+    "Tag3": "Python",
+    "Tag4": "Language Processing",
+    "Tag5": "Tokenization",
+    "URL": "https://medium.com/dev-genius/nltk-3-processing-text-5060d1c79ea7"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 1 - Your First Intelligent Workflow",
+    "Subtitle": "The Basics of Agents and Tasks",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Agents",
+    "Tag3": "Crew AI",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/ai-in-plain-english/mastering-crewai-chapter-1-your-first-intelligent-workflow-06b58aed1b3d"
+  },
+  {
+    "Title": "Instruct Fine-Tuning on Gemma with LoRA",
+    "Subtitle": "Fine-Tuning Gemma with LoRA: A Step-by-Step Guide",
+    "Topic": "LLM",
+    "Tag1": "Gemma",
+    "Tag2": "Llm",
+    "Tag3": "Llmops",
+    "Tag4": "Fine Tuning",
+    "Tag5": "Fine Tuning Llm",
+    "URL": "https://medium.com/ai-mind-labs/instruct-fine-tuning-on-gemma-with-lora-b65d341b481f"
+  },
+  {
+    "Title": "NER Fine-Tuning: A Complete Guide with Tokenization, Alignment, and Evaluation",
+    "Subtitle": "Step-by-Step Guide to Fine-Tuning an NER Model with Hugging Face",
+    "Topic": "NLP",
+    "Tag1": "Fine Tuning",
+    "Tag2": "Llm",
+    "Tag3": "Transformers",
+    "Tag4": "Ner",
+    "Tag5": "Hugging Face",
+    "URL": "https://medium.com/ai-in-plain-english/ner-fine-tuning-a-complete-guide-with-tokenization-alignment-and-evaluation-7b9529737e6a"
+  },
+  {
     "Title": "LangChain in Chains #49: Batch Processing",
     "Subtitle": "Batching in LangChain",
     "Topic": "Langchain",

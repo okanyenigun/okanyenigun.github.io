@@ -71,5 +71,15 @@
         "links": {
             "Hugging Face": "https://huggingface.co/yeniguno/nli-deberta-zero-shot-reviews-turkish-v1"
         }
+    },
+    {
+        "type": "Model",
+        "title": "NER Model",
+        "support": "Bert Base Model",
+        "description": "NER model fine-tuned on a custom dataset in Turkish.",
+        "tech": "Bert, PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/bert-ner-turkish-cased"
+        }
     }
 ]

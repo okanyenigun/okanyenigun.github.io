@@ -1,6 +1,6 @@
 Title,Subtitle,Topic,Tag1,Tag2,Tag3,Tag4,Tag5,URL
+NLTK #3: Processing Text,Processing Raw Text,NLP,NLP,Nltk,Python,Language Processing,Tokenization,https://medium.com/dev-genius/nltk-3-processing-text-5060d1c79ea7
+Mastering CrewAI: Chapter 1 — Your First Intelligent Workflow,The Basics of Agents and Tasks,LLM,Llm,Agents,Crew AI,Artificial Intelligence,Generative Ai Tools,https://medium.com/ai-in-plain-english/mastering-crewai-chapter-1-your-first-intelligent-workflow-06b58aed1b3d
+Instruct Fine-Tuning on Gemma with LoRA,Fine-Tuning Gemma with LoRA: A Step-by-Step Guide,LLM,Gemma,Llm,Llmops,Fine Tuning,Fine Tuning Llm,https://medium.com/ai-mind-labs/instruct-fine-tuning-on-gemma-with-lora-b65d341b481f
+"NER Fine-Tuning: A Complete Guide with Tokenization, Alignment, and Evaluation",Step-by-Step Guide to Fine-Tuning an NER Model with Hugging Face,NLP,Fine Tuning,Llm,Transformers,Ner,Hugging Face,https://medium.com/ai-in-plain-english/ner-fine-tuning-a-complete-guide-with-tokenization-alignment-and-evaluation-7b9529737e6a
 LangChain in Chains #49: Batch Processing,Batching in LangChain,Langchain,Langchain,Llm,Llmops,Generative Ai Tools,Artificial Intelligence,https://medium.com/dev-genius/langchain-in-chains-49-batch-processing-a36a3cb27d63
-OpenAI API: A Practical Usage Guide,Exploring the OpenAI API for Developers,LLM,Llm,OpenAI,ChatGPT,API,Generative Ai Tools,https://medium.com/aws-tip/openai-api-a-practical-usage-guide-570cb85f28dc
-Self-Instruct Style Data Generation: The Secret Behind Stanford Alpaca,Exploring Seed Prompts and Templates,LLM,Llm,Llama 3,Generative Ai Tools,Data,Synthetic Data,https://medium.com/@okanyenigun/self-instruct-style-data-generation-the-secret-behind-stanford-alpaca-e1575ea9ad71
-LangChain in Chains #48: Prompt Decomposition,Understanding Prompt Decomposition,Langchain,Langchain,NLP,Generative Ai Tools,Prompt Engineering,Prompt,https://medium.com/ai-mind-labs/langchain-in-chains-48-prompt-decomposition-9ced98250861
-Fine-Tuning LLaMA 2 Model,How to Fine-Tune LLaMA 2 with LoRA and BitsandBytes,LLM,Llama 2,Llm,Fine Tuning,Generative Ai Tools,Meta,https://medium.com/towardsdev/fine-tuning-llama-2-model-57665ecd24b5
