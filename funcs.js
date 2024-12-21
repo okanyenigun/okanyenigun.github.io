@@ -6,12 +6,13 @@ export function loadContent(pageName) {
 
 export function generateBlogPostsTable(
   dataJson,
-  filter = { topic: null, tag: null }
+  filter = { topic: null, tag: null },
+  rowsPerPage = 10
 ) {
   fetch(dataJson)
     .then((response) => response.json())
     .then((data) => {
-      // Filter data if topic is provided
+      // Filter data
       let filteredData = data;
       if (filter.topic) {
         filteredData = filteredData.filter(
@@ -28,7 +29,8 @@ export function generateBlogPostsTable(
             post.Tag5 === filter.tag
         );
       }
-      // Process the data to combine tags
+
+      // Process data to combine tags
       const processedData = filteredData.map((post) => {
         const tags = [post.Tag1, post.Tag2, post.Tag3, post.Tag4, post.Tag5]
           .filter((tag) => tag) // Remove empty tags
@@ -41,49 +43,123 @@ export function generateBlogPostsTable(
           URL: post.URL,
         };
       });
-      const existingTable = document.querySelector(".medium-posts-table");
-      if (existingTable) {
-        existingTable.remove();
-      }
-      // Create table
-      let table = document.createElement("table");
-      table.className =
-        "medium-posts-table table table-striped table-bordered table-hover table-sm table-responsive";
 
-      // Create table header
-      let thead = table.createTHead();
-      let headerRow = thead.insertRow();
-      for (let key in processedData[0]) {
-        if (key !== "URL") {
-          let th = document.createElement("th");
-          th.textContent = key;
-          headerRow.appendChild(th);
+      let currentPage = 1;
+      const totalPages = Math.ceil(processedData.length / rowsPerPage);
+
+      // Helper function to render the table
+      const renderTable = (page) => {
+        const startIndex = (page - 1) * rowsPerPage;
+        const endIndex = Math.min(
+          startIndex + rowsPerPage,
+          processedData.length
+        );
+        const pageData = processedData.slice(startIndex, endIndex);
+
+        // Clear any existing table
+        const existingTable = document.querySelector(".medium-posts-table");
+        if (existingTable) {
+          existingTable.remove();
         }
-      }
 
-      // Create table body
-      let tbody = table.createTBody();
-      processedData.forEach((post) => {
-        let row = tbody.insertRow();
-        row.className = "align-middle";
-        for (let key in post) {
+        // Create table
+        const table = document.createElement("table");
+        table.className =
+          "medium-posts-table table table-striped table-bordered table-hover table-sm table-responsive";
+
+        // Create table header
+        const thead = table.createTHead();
+        const headerRow = thead.insertRow();
+        for (const key in pageData[0]) {
           if (key !== "URL") {
-            let cell = row.insertCell();
-            if (key === "Title") {
-              let a = document.createElement("a");
-              a.href = post.URL;
-              a.textContent = post[key];
-              a.target = "_blank";
-              cell.appendChild(a);
-            } else {
-              cell.textContent = post[key];
-            }
+            const th = document.createElement("th");
+            th.textContent = key;
+            headerRow.appendChild(th);
           }
         }
-      });
 
-      // Add table to the document
-      document.getElementById("content").appendChild(table);
+        // Create table body
+        const tbody = table.createTBody();
+        pageData.forEach((post) => {
+          const row = tbody.insertRow();
+          row.className = "align-middle";
+          for (const key in post) {
+            if (key !== "URL") {
+              const cell = row.insertCell();
+              if (key === "Title") {
+                const a = document.createElement("a");
+                a.href = post.URL;
+                a.textContent = post[key];
+                a.target = "_blank";
+                cell.appendChild(a);
+              } else {
+                cell.textContent = post[key];
+              }
+            }
+          }
+        });
+
+        // Add the table to the document
+        document.getElementById("content").appendChild(table);
+      };
+
+      // Helper function to create pagination controls
+      const renderPaginationControls = () => {
+        // Clear existing controls
+        const existingControls = document.querySelector(".pagination-controls");
+        if (existingControls) {
+          existingControls.remove();
+        }
+
+        // Create pagination controls
+        const paginationDiv = document.createElement("div");
+        paginationDiv.className = "pagination-controls";
+
+        const createButton = (text, enabled, callback) => {
+          const button = document.createElement("button");
+          button.textContent = text;
+          button.disabled = !enabled;
+          button.className = "btn btn-outline-primary btn-sm m-1";
+          button.addEventListener("click", callback);
+          return button;
+        };
+
+        // Add Previous button
+        paginationDiv.appendChild(
+          createButton("Previous", currentPage > 1, () => {
+            currentPage -= 1;
+            renderTable(currentPage);
+            renderPaginationControls();
+          })
+        );
+
+        // Add page numbers
+        for (let i = 1; i <= totalPages; i++) {
+          paginationDiv.appendChild(
+            createButton(i.toString(), i !== currentPage, () => {
+              currentPage = i;
+              renderTable(currentPage);
+              renderPaginationControls();
+            })
+          );
+        }
+
+        // Add Next button
+        paginationDiv.appendChild(
+          createButton("Next", currentPage < totalPages, () => {
+            currentPage += 1;
+            renderTable(currentPage);
+            renderPaginationControls();
+          })
+        );
+
+        // Add controls to the document
+        document.getElementById("content").appendChild(paginationDiv);
+      };
+
+      // Render initial table and controls
+      renderTable(currentPage);
+      renderPaginationControls();
     })
     .catch((error) => console.error("Error:", error));
 }
@@ -217,9 +293,9 @@ export function generateCardsFromJson(jsonFileName, cardType = null) {
       const contentDiv = document.getElementById("content");
       contentDiv.innerHTML = ""; // Clear any existing content
 
-      // Create a parent div to hold all the cards
-      const cardsContainer = document.createElement("div");
-      cardsContainer.className = "cards-container";
+      // Create a container to hold the project list
+      const listContainer = document.createElement("div");
+      listContainer.className = "projects-list";
 
       // Filter data based on cardType if provided
       const filteredData = cardType
@@ -228,80 +304,61 @@ export function generateCardsFromJson(jsonFileName, cardType = null) {
           )
         : data;
 
-      // Generate cards for the filtered data
+      // Generate the list view for the filtered data
       filteredData.forEach((item) => {
-        // Create card container
-        const card = document.createElement("div");
-        card.className = "card mb-3";
+        // Create a project row
+        const projectRow = document.createElement("div");
+        projectRow.className = "project-row";
 
-        // Card header
-        const cardHeader = document.createElement("h3");
-        cardHeader.className = "card-header";
-        cardHeader.textContent = item.type;
-        card.appendChild(cardHeader);
+        // Project header (always visible)
+        const projectHeader = document.createElement("div");
+        projectHeader.className = "project-header";
+        projectHeader.innerHTML = `
+          <span class="project-title">${item.title}</span>
+          <span class="project-type">${item.type}</span>
+          <button class="toggle-details btn btn-outline-primary btn-sm">Details</button>
+        `;
 
-        // Card body with title and subtitle
-        const cardBody1 = document.createElement("div");
-        cardBody1.className = "card-body";
-        const cardTitle = document.createElement("h5");
-        cardTitle.className = "card-title";
-        cardTitle.textContent = item.title;
-        const cardSubtitle = document.createElement("h6");
-        cardSubtitle.className = "card-subtitle text-muted";
-        cardSubtitle.textContent = item.support;
-        cardBody1.appendChild(cardTitle);
-        cardBody1.appendChild(cardSubtitle);
-        card.appendChild(cardBody1);
+        // Project details (hidden by default)
+        const projectDetails = document.createElement("div");
+        projectDetails.className = "project-details";
+        projectDetails.style.display = "none"; // Initially hidden
+        projectDetails.innerHTML = `
+          <p class="project-description">${item.description}</p>
+          <ul class="project-tech">Tech: ${item.tech}</ul>
+          <div class="project-links">
+            ${Object.entries(item.links)
+              .map(
+                ([key, value]) =>
+                  `<a href="${value}" class="project-link" target="_blank">${key}</a>`
+              )
+              .join(" ")}
+          </div>
+        `;
 
-        // Card body with description
-        const cardBody2 = document.createElement("div");
-        cardBody2.className = "card-body";
-        const cardText = document.createElement("p");
-        cardText.className = "card-text";
-        cardText.textContent = item.description;
-        cardBody2.appendChild(cardText);
-        card.appendChild(cardBody2);
-
-        // List group with tech stack
-        const listGroup = document.createElement("ul");
-        listGroup.className = "list-group list-group-flush";
-        const listGroupItem = document.createElement("li");
-        listGroupItem.className = "list-group-item";
-        listGroupItem.textContent = item.tech;
-        listGroup.appendChild(listGroupItem);
-        card.appendChild(listGroup);
-
-        // Card body with links or plain text
-        const cardBody3 = document.createElement("div");
-        cardBody3.className = "card-body";
-        Object.entries(item.links).forEach(([key, value]) => {
-          if (key === "_") {
-            const textElement = document.createElement("p");
-            textElement.className = "card-text";
-            textElement.textContent = value;
-            cardBody3.appendChild(textElement);
-          } else {
-            const link = document.createElement("a");
-            link.href = value !== "Under Development" ? value : "#";
-            link.className = "card-link";
-            link.textContent = key;
-            link.target = "_blank"; // Open the link in a new tab
-            cardBody3.appendChild(link);
-          }
+        // Toggle visibility of details on button click
+        const toggleButton = projectHeader.querySelector(".toggle-details");
+        toggleButton.addEventListener("click", () => {
+          const isVisible = projectDetails.style.display === "block";
+          projectDetails.style.display = isVisible ? "none" : "block";
+          toggleButton.textContent = isVisible ? "Details" : "Hide Details";
         });
-        card.appendChild(cardBody3);
 
-        // Append the card to the cards container
-        cardsContainer.appendChild(card);
+        // Append header and details to the project row
+        projectRow.appendChild(projectHeader);
+        projectRow.appendChild(projectDetails);
+
+        // Append the project row to the list container
+        listContainer.appendChild(projectRow);
       });
 
-      // Append the cards container to the content div
-      contentDiv.appendChild(cardsContainer);
+      // Append the list container to the content div
+      contentDiv.appendChild(listContainer);
 
       // If no data matches the filter, display a message
       if (filteredData.length === 0) {
         const noDataMessage = document.createElement("p");
-        noDataMessage.textContent = `No ${cardType} cards found.`;
+        noDataMessage.textContent = `No ${cardType} projects found.`;
         contentDiv.appendChild(noDataMessage);
       }
     })
