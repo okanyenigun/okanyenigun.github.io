@@ -81,5 +81,27 @@
         "links": {
             "Hugging Face": "https://huggingface.co/yeniguno/bert-ner-turkish-cased"
         }
+    },
+    {
+        "type": "Model",
+        "title": "TAPAS Model",
+        "support": "TAPAS Base Table Question Answering Model",
+        "description": "TAPAS model fine-tuned on a financial datasets.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/tapas-base-wtq-balance-sheet-tuned"
+        }
+    },
+    {
+        "type": "Package",
+        "title": "sugardata",
+        "support": "Python Library",
+        "description": "generates synthetic datasets tailored for transformer-based models across a variety of tasks.",
+        "tech": "Python",
+        "links": {
+            "PyPi": "https://pypi.org/project/sugardata/",
+            "GitHub": "https://github.com/okanyenigun/sugardata"
+        }
     }
+
 ]

@@ -1,5 +1,148 @@
 [
   {
+    "Title": "Fine-Tuning TAPAS Models for Table Question Answering Tasks",
+    "Subtitle": "Beyond Simple Queries: Fine-Tuning TAPAS for Complex Table QA",
+    "Topic": "NLP",
+    "Tag1": "Bert",
+    "Tag2": "Hugging Face",
+    "Tag3": "Fine Tuning",
+    "Tag4": "Deep Learning",
+    "Tag5": "Transformers",
+    "URL": "https://medium.com/ai-advances/fine-tuning-tapas-models-for-table-question-answering-tasks-09cc62fa8c4f"
+  },
+  {
+    "Title": "Prototyping Made Easy with Auto-sklearn",
+    "Subtitle": "Effortless Prototyping and Model Optimization",
+    "Topic": "Machine Learning",
+    "Tag1": "Machine Learning",
+    "Tag2": "Deep Learning",
+    "Tag3": "Data Science",
+    "Tag4": "AutoML",
+    "Tag5": "Sklearn",
+    "URL": "https://medium.com/ai-advances/prototyping-made-easy-with-auto-sklearn-09f8f6c7ee4f"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 6 - Memory Basics",
+    "Subtitle": "Memory Types in CrewAI",
+    "Topic": "LLM",
+    "Tag1": "Agents",
+    "Tag2": "Llm",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Crew AI",
+    "URL": "https://medium.com/aws-tip/mastering-crewai-chapter-6-memory-basics-c9f3262892ee"
+  },
+  {
+    "Title": "Auto-Keras for Effortless Deep Learning",
+    "Subtitle": "Auto-Keras: Automating Deep Learning for Image Classification",
+    "Topic": "Deep Learning",
+    "Tag1": "Data Science",
+    "Tag2": "Machine Learning",
+    "Tag3": "Deep Learning",
+    "Tag4": "AutoML",
+    "Tag5": "Keras",
+    "URL": "https://medium.com/@okanyenigun/auto-keras-for-effortless-deep-learning-6a6c9c16bae7"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 5- Train, Test, Replay & Plan",
+    "Subtitle": "Train, Test, Replay & Plan",
+    "Topic": "LLM",
+    "Tag1": "Agents",
+    "Tag2": "Llm",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Large Language Models",
+    "Tag5": "Crew AI",
+    "URL": "https://medium.com/ai-in-plain-english/mastering-crewai-chapter-5-train-test-replay-plan-024d81e265ee"
+  },
+  {
+    "Title": "DRY Programming Principle",
+    "Subtitle": "Don't Repeat Yourself",
+    "Topic": "Software Engineering",
+    "Tag1": "Software Development",
+    "Tag2": "Software Engineering",
+    "Tag3": "Programming",
+    "Tag4": "Python",
+    "Tag5": "Python Programming",
+    "URL": "https://medium.com/python-in-plain-english/dry-programming-principle-6d48a63c5bfd"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 4 - Processes",
+    "Subtitle": "Sequential & Hierarchical Processes",
+    "Topic": "LLM",
+    "Tag1": "Agents",
+    "Tag2": "Llm",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Crew AI",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/ai-in-plain-english/mastering-crewai-chapter-4-processes-e8ad3ebbadae"
+  },
+  {
+    "Title": "YAGNI Programming Principle",
+    "Subtitle": "You Ain't Gonna Need It!",
+    "Topic": "Software Engineering",
+    "Tag1": "Software Engineering",
+    "Tag2": "Programming",
+    "Tag3": "Python",
+    "Tag4": "Software Development",
+    "Tag5": "Software Architecture",
+    "URL": "https://medium.com/python-in-plain-english/yagni-programming-principle-9ea497c4bead"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 3- Knowledge",
+    "Subtitle": "Knowledge - CrewAI",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Agents",
+    "Tag3": "Crew AI",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/aws-tip/mastering-crewai-chapter-3-knowledge-4880646832bb"
+  },
+  {
+    "Title": "Luigi 101: Orchestrating Workflows in Python",
+    "Subtitle": "An Introduction to Building Flexible Data Pipelines",
+    "Topic": "Software Engineering",
+    "Tag1": "Data Engineering",
+    "Tag2": "Data Pipeline",
+    "Tag3": "Data",
+    "Tag4": "Spotify",
+    "Tag5": "Luigi",
+    "URL": "https://medium.com/aws-tip/luigi-101-orchestrating-workflows-in-python-b5420b8169a3"
+  },
+  {
+    "Title": "Mastering Domain Knowledge: An Introduction to Domain-Adaptive Pretraining (DAPT)",
+    "Subtitle": "Domain-Specific AI: How DAPT Makes Models Smarter and More Relevant",
+    "Topic": "LLM",
+    "Tag1": "Generative Ai Tools",
+    "Tag2": "Fine Tuning",
+    "Tag3": "Llm",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Model Training",
+    "URL": "https://medium.com/gitconnected/mastering-domain-knowledge-an-introduction-to-domain-adaptive-pretraining-dapt-87930a97448b"
+  },
+  {
+    "Title": "NLTK #4-5: POS Tags",
+    "Subtitle": "Categorizing and Tagging Words",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "Machine Learning",
+    "Tag3": "Python",
+    "Tag4": "Nltk",
+    "Tag5": "Linguistics",
+    "URL": "https://medium.com/stackademic/nltk-4-5-pos-tags-e01e6a42eba4"
+  },
+  {
+    "Title": "Mastering CrewAI: Chapter 2- Flows",
+    "Subtitle": "Event-Driven AI Workflows",
+    "Topic": "LLM",
+    "Tag1": "Agents",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Crew AI",
+    "Tag4": "Tools",
+    "Tag5": "Python",
+    "URL": "https://medium.com/ai-in-plain-english/mastering-crewai-chapter-2-flows-9b7c64f7b9b0"
+  },
+  {
     "Title": "NLTK #3: Processing Text",
     "Subtitle": "Processing Raw Text",
     "Topic": "NLP",
