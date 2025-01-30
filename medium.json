@@ -1,5 +1,93 @@
 [
   {
+    "Title": "Whisper.cpp: Efficient Speech Recognition in C++",
+    "Subtitle": "Getting Started with Whisper.cpp",
+    "Topic": "Deep Learning",
+    "Tag1": "Speech Recognition",
+    "Tag2": "Cpp",
+    "Tag3": "C Programming",
+    "Tag4": "Whisper",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/gitconnected/whisper-cpp-efficient-speech-recognition-in-c-679ac0a946be"
+  },
+  {
+    "Title": "What is Linear Programming?",
+    "Subtitle": "An Intuitive Introduction",
+    "Topic": "Optimization",
+    "Tag1": "Optimization",
+    "Tag2": "Linear Programming",
+    "Tag3": "Optimization Algorithms",
+    "Tag4": "Math",
+    "Tag5": "Function",
+    "URL": "https://medium.com/stackademic/what-is-linear-programming-8f1324e0a021"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 1 - Introducing AgentChat",
+    "Subtitle": "An Overview of AgentChat's Features",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Agents",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Multi Agent Systems",
+    "Tag5": "Autogen",
+    "URL": "https://medium.com/ai-mind-labs/inside-autogen-chapter-1-introducing-agentchat-1ffbe4489bfe"
+  },
+  {
+    "Title": "ARCH and GARCH: Exploring Volatility in Finance",
+    "Subtitle": "Unveiling Volatility: A Deep Dive into ARCH and GARCH Models with Microsoft Stock Analysis",
+    "Topic": "Time Series",
+    "Tag1": "Time Series Forecasting",
+    "Tag2": "Time Series Analysis",
+    "Tag3": "Data Science",
+    "Tag4": "Machine Learning",
+    "Tag5": "Economics",
+    "URL": "https://medium.com/@okanyenigun/arch-and-garch-exploring-volatility-in-finance-d6f0f279abde"
+  },
+  {
+    "Title": "Whisper Gets a Boost: Introducing Fast Whisper",
+    "Subtitle": "Speech-to-Text Made Faster: A Guide to Faster Whisper",
+    "Topic": "Deep Learning",
+    "Tag1": "Speech Recognition",
+    "Tag2": "Deep Learning",
+    "Tag3": "Artificial Intelligence",
+    "Tag4": "Whisper",
+    "Tag5": "OpenAI",
+    "URL": "https://medium.com/ai-advances/whisper-gets-a-boost-introducing-fast-whisper-506f1901a8b2"
+  },
+  {
+    "Title": "Structured Testing in Django: A Focus on Test Cases",
+    "Subtitle": "Django Test Cases Explained: Writing Reliable and Efficient Tests",
+    "Topic": "Django",
+    "Tag1": "Django",
+    "Tag2": "Python",
+    "Tag3": "Testing",
+    "Tag4": "Test Automation",
+    "Tag5": "Software Engineering",
+    "URL": "https://medium.com/devops-dev/structured-testing-in-django-a-focus-on-test-cases-85cd15834a42"
+  },
+  {
+    "Title": "Fine-Tuning BERT for Intent Classification: From Scratch",
+    "Subtitle": "Intent Classification: Level Up with BERT Fine-Tuning",
+    "Topic": "NLP",
+    "Tag1": "NLP",
+    "Tag2": "Fine Tuning",
+    "Tag3": "Deep Learning",
+    "Tag4": "Bert",
+    "Tag5": "Classification",
+    "URL": "https://medium.com/ai-mind-labs/fine-tuning-bert-for-intent-classification-from-scratch-7e04be18b733"
+  },
+  {
+    "Title": "MLX: Apple's Machine Learning Framework",
+    "Subtitle": "An Introduction to Apple's MLX",
+    "Topic": "Machine Learning",
+    "Tag1": "Data Science",
+    "Tag2": "Machine Learning",
+    "Tag3": "Deep Learning",
+    "Tag4": "Apple",
+    "Tag5": "Python",
+    "URL": "https://medium.com/python-in-plain-english/mlx-apples-machine-learning-framework-643959f36ac0"
+  },
+  {
     "Title": "Fine-Tuning TAPAS Models for Table Question Answering Tasks",
     "Subtitle": "Beyond Simple Queries: Fine-Tuning TAPAS for Complex Table QA",
     "Topic": "NLP",
@@ -121,7 +209,7 @@
     "URL": "https://medium.com/gitconnected/mastering-domain-knowledge-an-introduction-to-domain-adaptive-pretraining-dapt-87930a97448b"
   },
   {
-    "Title": "NLTK #4-5: POS Tags",
+    "Title": "NLTK #4- 5: POS Tags",
     "Subtitle": "Categorizing and Tagging Words",
     "Topic": "NLP",
     "Tag1": "NLP",

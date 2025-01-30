@@ -23,7 +23,7 @@
     {
         "type": "Model",
         "title": "Sentiment Analysis Model",
-        "support": "Bert Model",
+        "support": "BERT",
         "description": "A sentiment analysis model trained on a custom dataset about democracy.",
         "tech": "Bert, PyTorch",
         "links": {
@@ -33,7 +33,7 @@
     {
         "type": "Model",
         "title": "ABSA Model",
-        "support": "Bert Model",
+        "support": "BERT",
         "description": "An ABSA model fine-tuned on a custom dataset in Turkish.",
         "tech": "Bert, PyTorch",
         "links": {
@@ -65,7 +65,7 @@
     {
         "type": "Model",
         "title": "NLI Zero Shot Model",
-        "support": "DeBerta Model",
+        "support": "DeBerta",
         "description": "An NLI | zero-shot classification model fine-tuned on a custom dataset in Turkish.",
         "tech": "Bert, PyTorch",
         "links": {
@@ -75,7 +75,7 @@
     {
         "type": "Model",
         "title": "NER Model",
-        "support": "Bert Base Model",
+        "support": "BERT",
         "description": "NER model fine-tuned on a custom dataset in Turkish.",
         "tech": "Bert, PyTorch",
         "links": {
@@ -85,7 +85,7 @@
     {
         "type": "Model",
         "title": "TAPAS Model",
-        "support": "TAPAS Base Table Question Answering Model",
+        "support": "TAPAS",
         "description": "TAPAS model fine-tuned on a financial datasets.",
         "tech": "PyTorch",
         "links": {
@@ -102,6 +102,37 @@
             "PyPi": "https://pypi.org/project/sugardata/",
             "GitHub": "https://github.com/okanyenigun/sugardata"
         }
+    },
+    {
+        "type": "Model",
+        "title": "Intent Classification Model",
+        "support": "BERT",
+        "description": "This is a fine-tuned BERT-based model for intent classification, capable of categorizing intents into 82 distinct labels. It was trained on a consolidated dataset of multilingual intent datasets.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/bert-uncased-intent-classification"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "Intent Classification Model [Turkish]",
+        "support": "BERT",
+        "description": "This is a fine-tuned BERT-based model for Turkish intent classification, capable of categorizing intents into 82 distinct labels. It was trained on a consolidated dataset of multilingual intent datasets, translated and normalized to Turkish.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/bert-uncased-turkish-intent-classification"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "Topic Modeling Model",
+        "support": "BERTopic",
+        "description": "This is a BERTopic model fine-tuned on a custom dataset of Turkish political comments.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/bertopic-turkish-political"
+        }
     }
+
 
 ]

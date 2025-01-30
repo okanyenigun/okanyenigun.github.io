@@ -315,7 +315,7 @@ export function generateCardsFromJson(jsonFileName, cardType = null) {
         projectHeader.className = "project-header";
         projectHeader.innerHTML = `
           <span class="project-title">${item.title}</span>
-          <span class="project-type">${item.type}</span>
+          <span class="project-type">${item.support}</span>
           <button class="toggle-details btn btn-outline-primary btn-sm">Details</button>
         `;
 
