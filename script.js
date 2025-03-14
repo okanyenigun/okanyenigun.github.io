@@ -71,6 +71,8 @@ $(document).ready(function () {
       generateCardsFromJson("projects.json", "app");
     } else if (id == "sp-model") {
       generateCardsFromJson("projects.json", "model");
+    } else if (id == "sp-agent") {
+      generateCardsFromJson("projects.json", "agent");
     }
   });
 

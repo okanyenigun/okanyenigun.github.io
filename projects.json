@@ -132,6 +132,46 @@
         "links": {
             "Hugging Face": "https://huggingface.co/yeniguno/bertopic-turkish-political"
         }
+    },
+    {
+        "type": "Agent",
+        "title": "Prompt Engineering Agent",
+        "support": "CrewAI",
+        "description": "AI agent system that transforms initial prompts into professional-grade prompts.",
+        "tech": "CrewAI",
+        "links": {
+            "GitHub": "https://github.com/okanyenigun/prompter-crew"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "QA Model",
+        "support": "BERT",
+        "description": "This model is fine-tuned for extractive question answering on Turkish legal texts. It can extract relevant spans from law articles based on user queries.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/turkish-law-eqa-bert-finetuned"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "QA Model",
+        "support": "BART",
+        "description": "This model is a fine-tuned version of facebook/mbart-large-50 for Abstractive Question Answering (QA) in Turkish, trained on a legal text dataset based on Turkish laws. Unlike extractive QA models that select exact spans from the context, this model generates natural, paraphrased answers.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/turkish-law-aqa-bart-finetuned"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "T2T Summarization Model",
+        "support": "MT5",
+        "description": "This model is a fine-tuned version of mukayese/mt5-base-turkish-summarization, specifically adapted for generating concise and coherent summaries of Turkish news articles. The fine-tuning was performed using the yeniguno/turkish-news-summary-onesentence dataset, which consists of approximately 60,000 Turkish news articles paired with one-sentence summaries. The objective is to enhance the model's ability to produce shorter, more concise, and compact news summaries.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/turkish-law-aqa-bart-finetuned"
+        }
     }
 
 
