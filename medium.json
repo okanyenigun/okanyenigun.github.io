@@ -1,5 +1,258 @@
 [
   {
+    "Title": "How to Fine-Tune a Seq2Seq Translation Model on Hugging Face",
+    "Subtitle": "Training Your Translator: Fine-Tuning on Hugging Face Made Easy",
+    "Topic": "LLM",
+    "Tag1": "Generative Ai Tools",
+    "Tag2": "Fine Tuning",
+    "Tag3": "Hugging Face",
+    "Tag4": "Deep Learning",
+    "Tag5": "Pytorch",
+    "URL": "https://medium.com/@okanyenigun/how-to-fine-tune-a-seq2seq-translation-model-on-hugging-face-3fb316f309e3"
+  },
+  {
+    "Title": "Python Trading Guide: ATR",
+    "Subtitle": "Average True Range",
+    "Topic": "Algorithmic Trading",
+    "Tag1": "Trading",
+    "Tag2": "Stock Market",
+    "Tag3": "Algorithmic Trading",
+    "Tag4": "Cryptocurrency",
+    "Tag5": "Python",
+    "URL": "https://medium.com/insiderfinance/python-trading-guide-atr-80ed881876cb"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 9 - Core | Design Patterns 1",
+    "Subtitle": "Multi-Agent Design Patterns Part 1",
+    "Topic": "LLM",
+    "Tag1": "Autogen",
+    "Tag2": "Agentic AI",
+    "Tag3": "Agents",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/aws-tip/inside-autogen-chapter-9-core-design-patterns-1-762e9dd89616"
+  },
+  {
+    "Title": "Learning Go #8: Error Handling",
+    "Subtitle": "Error Handling and Go",
+    "Topic": "Go",
+    "Tag1": "Go",
+    "Tag2": "Golang",
+    "Tag3": "Programming",
+    "Tag4": "Programming Languages",
+    "Tag5": "Software Engineering",
+    "URL": "https://medium.com/stackademic/learning-go-8-error-handling-3caf0fd0b934"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 8 - Core | Models",
+    "Subtitle": "Model Clients & Model Context",
+    "Topic": "LLM",
+    "Tag1": "Autogen",
+    "Tag2": "Agentic AI",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Llm",
+    "Tag5": "Agents",
+    "URL": "https://medium.com/towardsdev/inside-autogen-chapter-8-core-models-23cde36b795e"
+  },
+  {
+    "Title": "Federated Learning: A Beginner's Guide with Image Classification in TFF",
+    "Subtitle": "Start Federating: Hands-On with Federated Learning and Image Classification in TFF",
+    "Topic": "Deep Learning",
+    "Tag1": "Machine Learning",
+    "Tag2": "Deep Learning",
+    "Tag3": "Federated Learning",
+    "Tag4": "TensorFlow",
+    "Tag5": "Distributed Systems",
+    "URL": "https://medium.com/gitconnected/federated-learning-a-beginners-guide-with-image-classification-in-tff-c297b8c98e40"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 7- Core | Agents & Runtime",
+    "Subtitle": "Agents, Agent Runtime, and Messages",
+    "Topic": "LLM",
+    "Tag1": "Agentic",
+    "Tag2": "Agentic AI",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Autogen",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/h7w/inside-autogen-chapter-7-core-agents-runtime-d9af4511e1a4"
+  },
+  {
+    "Title": "Two Legs, One Problem: An Intuitive Guide to Multicollinearity",
+    "Subtitle": "When Variables Overlap: A Beginner's Guide to Multicollinearity",
+    "Topic": "Statistics",
+    "Tag1": "Statistics",
+    "Tag2": "Math",
+    "Tag3": "Correlation",
+    "Tag4": "Multicollinearity",
+    "Tag5": "Linear Regression",
+    "URL": "https://medium.com/stackademic/two-legs-one-problem-an-intuitive-guide-to-multicollinearity-ea2e14636c3f"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 6 - Memory",
+    "Subtitle": "Memory And RAG",
+    "Topic": "LLM",
+    "Tag1": "Multi Agent Systems",
+    "Tag2": "Llm",
+    "Tag3": "Agentic",
+    "Tag4": "Agents",
+    "Tag5": "Autogen",
+    "URL": "https://medium.com/stackademic/inside-autogen-chapter-6-memory-dd7313dac879"
+  },
+  {
+    "Title": "Scala #15: Spark: Text Feature Transformers",
+    "Subtitle": "Practical Guide to Spark ML's Text Feature Extractors",
+    "Topic": "Scala",
+    "Tag1": "Scala",
+    "Tag2": "Spark",
+    "Tag3": "Machine Learning",
+    "Tag4": "NLP",
+    "Tag5": "Scala Programming",
+    "URL": "https://medium.com/gitconnected/scala-15-spark-text-feature-transformers-d536996ab9cc"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 5 - More Teams",
+    "Subtitle": "3 More Teams",
+    "Topic": "LLM",
+    "Tag1": "Agentic AI",
+    "Tag2": "Agents",
+    "Tag3": "Autogen",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/ai-in-plain-english/inside-autogen-chapter-5-more-teams-74abc0660c77"
+  },
+  {
+    "Title": "YOLO 101: A Practical Introduction to Single-Shot Object Detection",
+    "Subtitle": "You Only Look Once",
+    "Topic": "Computer Vision",
+    "Tag1": "Convolutional Network",
+    "Tag2": "Deep Learning",
+    "Tag3": "Yolo",
+    "Tag4": "Object Detection",
+    "Tag5": "Computer Vision",
+    "URL": "https://medium.com/ai-mind-labs/yolo-101-a-practical-introduction-to-single-shot-object-detection-23f04c52a218"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 4 - Custom Agents",
+    "Subtitle": "Custom AgentChat Agents",
+    "Topic": "LLM",
+    "Tag1": "Agentic AI",
+    "Tag2": "Llm",
+    "Tag3": "Autogen",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Agents",
+    "URL": "https://medium.com/ai-in-plain-english/inside-autogen-chapter-4-custom-agents-c0abc30bbf8e"
+  },
+  {
+    "Title": "How SSD Detects Objects in a Single Shot (No Region Proposals Needed!)",
+    "Subtitle": "SSD Explained: The Real-Time Object Detection Powerhouse",
+    "Topic": "Computer Vision",
+    "Tag1": "Computer Vision",
+    "Tag2": "Object Detection",
+    "Tag3": "Image Processing",
+    "Tag4": "Deep Learning",
+    "Tag5": "Convolutional Network",
+    "URL": "https://medium.com/ai-mind-labs/how-ssd-detects-objects-in-a-single-shot-no-region-proposals-needed-2d532bd1366b"
+  },
+  {
+    "Title": "The Simplex Method in Linear Programming: A Practical Guide",
+    "Subtitle": "From Slack Variables to Solutions: Demystifying the Simplex Method",
+    "Topic": "Optimization",
+    "Tag1": "Linear Programming",
+    "Tag2": "Optimization",
+    "Tag3": "Optimization Algorithms",
+    "Tag4": "Python",
+    "Tag5": "Math",
+    "URL": "https://medium.com/stackademic/the-simplex-method-in-linear-programming-a-practical-guide-e603cc345b37"
+  },
+  {
+    "Title": "Building a Football Tracking System with YOLO and Python",
+    "Subtitle": "Smart Football Vision: Player Segmentation and Ball Tracking with YOLO",
+    "Topic": "Computer Vision",
+    "Tag1": "Computer Vision",
+    "Tag2": "Yolo",
+    "Tag3": "Object Detection",
+    "Tag4": "Image Processing",
+    "Tag5": "Python",
+    "URL": "https://medium.com/ai-in-plain-english/building-a-football-tracking-system-with-yolo-and-python-83953c522d0c"
+  },
+  {
+    "Title": "Cannes in Focus: AI-Driven Analysis of Palme d'Or Trends",
+    "Subtitle": "An Experimental Study Using AI to Read the Language of Award-Winning Cinema",
+    "Topic": "Artificial Intelligence",
+    "Tag1": "Cinema",
+    "Tag2": "Movie Review",
+    "Tag3": "Data Analysis",
+    "Tag4": "Cannes Film Festival",
+    "Tag5": "Artificial Intelligence",
+    "URL": "https://medium.com/@okanyenigun/cannes-in-focus-ai-driven-analysis-of-palme-dor-trends-898cacc8b16c"
+  },
+  {
+    "Title": "Taming Spurious Associations with Multivariate Thinking",
+    "Subtitle": "Correlation - Causation: Visualizing the Truth with Multiple Regression",
+    "Topic": "Statistics",
+    "Tag1": "Statistics",
+    "Tag2": "Regression",
+    "Tag3": "Math",
+    "Tag4": "Data Science",
+    "Tag5": "Statistical Analysis",
+    "URL": "https://blog.stackademic.com/taming-spurious-associations-with-multivariate-thinking-4a85a0af7a68"
+  },
+  {
+    "Title": "Middleware Magic: Understanding Django's Request/Response Lifecycle",
+    "Subtitle": "A Developer's Guide to Django Middleware: Hooks, Logic, and Power",
+    "Topic": "Django",
+    "Tag1": "Django",
+    "Tag2": "Backend",
+    "Tag3": "Web Development",
+    "Tag4": "Software Engineering",
+    "Tag5": "Software Development",
+    "URL": "https://medium.com/python-in-plain-english/middleware-magic-understanding-djangos-request-response-lifecycle-f83bdeded926"
+  },
+  {
+    "Title": "Fine-Tuning T5 for Grammar Correction: A Step-by-Step Guide",
+    "Subtitle": "Grammar Fixing with Transformers: Training a T5 Model from Scratch",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Fine Tuning",
+    "Tag3": "NLP",
+    "Tag4": "Deep Learning",
+    "Tag5": "Hugging Face",
+    "URL": "https://medium.com/stackademic/fine-tuning-t5-for-grammar-correction-a-step-by-step-guide-edba96ada787"
+  },
+  {
+    "Title": "R-CNN, Fast R-CNN, Faster R-CNN, and Mask R-CNN",
+    "Subtitle": "Breaking Down R-CNN Models: The Race to Faster and Smarter Object Detection",
+    "Topic": "Deep Learning",
+    "Tag1": "Computer Vision",
+    "Tag2": "Neural Networks",
+    "Tag3": "Deep Learning",
+    "Tag4": "Convolutional Network",
+    "Tag5": "Object Detection",
+    "URL": "https://medium.com/towardsdev/r-cnn-fast-r-cnn-faster-r-cnn-and-mask-r-cnn-e7cd2e6f0a82"
+  },
+  {
+    "Title": "Fine-Tuning GPT-2 for Poetry Generation: A Step-by-Step Guide to Causal Language Modeling",
+    "Subtitle": "Mastering CLM: How to Train GPT-2 on Custom Poetry Datasets",
+    "Topic": "LLM",
+    "Tag1": "GPT",
+    "Tag2": "Llm",
+    "Tag3": "Fine Tuning",
+    "Tag4": "Large Language Models",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/ai-in-plain-english/fine-tuning-gpt-2-for-poetry-generation-a-step-by-step-guide-to-causal-language-modeling-69178efb77b4"
+  },
+  {
+    "Title": "Building Blocks of Object Detection: Sliding Windows and Beyond",
+    "Subtitle": "Sliding Windows in Object Detection: Core Concepts and Modern Advancements",
+    "Topic": "Computer Vision",
+    "Tag1": "Computer Vision",
+    "Tag2": "Object Detection",
+    "Tag3": "Deep Learning",
+    "Tag4": "Convolutional Network",
+    "Tag5": "Yolo",
+    "URL": "https://medium.com/ai-mind-labs/building-blocks-of-object-detection-sliding-windows-and-beyond-d178a2a2d48d"
+  },
+  {
     "Title": "Supercharge Your GitHub Repo with GitHub Actions",
     "Subtitle": "GitHub Actions Explained: Simplify Your Development Workflow",
     "Topic": "Data Engineering",
@@ -231,7 +484,7 @@
     "URL": "https://medium.com/stackademic/what-is-linear-programming-8f1324e0a021"
   },
   {
-    "Title": "Inside AutoGen: Chapter 1 - Introducing AgentChat",
+    "Title": "Inside AutoGen: Chapter 1: Introducing AgentChat",
     "Subtitle": "An Overview of AgentChat's Features",
     "Topic": "LLM",
     "Tag1": "Llm",
@@ -418,7 +671,7 @@
     "URL": "https://medium.com/gitconnected/mastering-domain-knowledge-an-introduction-to-domain-adaptive-pretraining-dapt-87930a97448b"
   },
   {
-    "Title": "NLTK #4- 5: POS Tags",
+    "Title": "NLTK #: 5: POS Tags",
     "Subtitle": "Categorizing and Tagging Words",
     "Topic": "NLP",
     "Tag1": "NLP",
@@ -4235,8 +4488,8 @@
     "URL": "https://medium.com/python-in-plain-english/how-to-handle-missing-values-ef4abd02673f?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "How to Implement: Please, Wait! Animation Using Ajax in Django",
-    "Subtitle": "A guide on implementing the: Please, Wait animations in Machine Learning Web Applications",
+    "Title": "How to Implement 'Please, Wait!' Animation Using Ajax in Django",
+    "Subtitle": "A guide on implementing the 'Please, Wait' animations in Machine Learning Web Applications",
     "Topic": "Django",
     "Tag1": "Django",
     "Tag2": "Ajax",

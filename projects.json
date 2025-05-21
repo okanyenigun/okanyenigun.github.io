@@ -170,7 +170,59 @@
         "description": "This model is a fine-tuned version of mukayese/mt5-base-turkish-summarization, specifically adapted for generating concise and coherent summaries of Turkish news articles. The fine-tuning was performed using the yeniguno/turkish-news-summary-onesentence dataset, which consists of approximately 60,000 Turkish news articles paired with one-sentence summaries. The objective is to enhance the model's ability to produce shorter, more concise, and compact news summaries.",
         "tech": "PyTorch",
         "links": {
-            "Hugging Face": "https://huggingface.co/yeniguno/turkish-law-aqa-bart-finetuned"
+            "Hugging Face": "https://huggingface.co/yeniguno/turkish-abstractive-summary-mt5"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "GPT2 Poem Generator Model",
+        "support": "GPT2",
+        "description": "This model is a fine-tuned version of ytu-ce-cosmos/turkish-gpt2-large, trained on 100,000 Turkish poems. It specializes in generating poetry in Turkish with fluency and coherence.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/gpt2-turkish-poem-generator"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "Turkish Grammar Correction Model",
+        "support": "mBART",
+        "description": "This model is a fine-tuned version of facebook/mbart-large-50-many-to-many-mmt on the GECTurk-generation dataset for the task of Turkish grammar correction. It takes Turkish sentences with grammatical mistakes as input and generates grammatically corrected Turkish text.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/mbart50-turkish-grammar-corrector"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "TR<->EN Translation Model",
+        "support": "MarianMT",
+        "description": "A fine-tuned MarianMT model that translates Turkish prose into English (vice versa) with a deliberate “Kafkaesque” flavour.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/opus-mt-tr-en-kafkaesque"
+        }
+    },
+    {
+        "type": "Package",
+        "title": "eksiminer",
+        "support": "Python Library",
+        "description": "eksiminer is a Python package for scraping entries, topics, authors, and daily highlights from Ekşi Sözlük, one of Turkey's most popular social platforms. ",
+        "tech": "Python",
+        "links": {
+            "PyPi": "https://pypi.org/project/eksiminer/",
+            "GitHub": "https://github.com/okanyenigun/eksi-scrap"
+        }
+    },
+     {
+        "type": "Package",
+        "title": "rotoml",
+        "support": "Rust Library",
+        "description": "A native Rust ML Agent toolkit",
+        "tech": "Rust",
+        "links": {
+            "Crates": "https://crates.io/crates/rotoml",
+            "GitHub": "https://github.com/okanyenigun/rotoml"
         }
     }
 
