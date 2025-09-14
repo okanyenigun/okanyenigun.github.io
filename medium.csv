@@ -1,6 +1,6 @@
 Title,Subtitle,Topic,Tag1,Tag2,Tag3,Tag4,Tag5,URL
-How to Fine-Tune a Seq2Seq Translation Model on Hugging Face,Training Your Translator: Fine-Tuning on Hugging Face Made Easy,LLM,Generative Ai Tools,Fine Tuning,Hugging Face,Deep Learning,Pytorch,https://medium.com/@okanyenigun/how-to-fine-tune-a-seq2seq-translation-model-on-hugging-face-3fb316f309e3
-Python Trading Guide: ATR,Average True Range,Algorithmic Trading,Trading,Stock Market,Algorithmic Trading,Cryptocurrency,Python,https://medium.com/insiderfinance/python-trading-guide-atr-80ed881876cb
-Inside AutoGen: Chapter 9 — Core | Design Patterns 1,Multi-Agent Design Patterns Part 1,LLM,Autogen,Agentic AI,Agents,Generative Ai Tools,Llm,https://medium.com/aws-tip/inside-autogen-chapter-9-core-design-patterns-1-762e9dd89616
-Learning Go #8: Error Handling,Error Handling and Go,Go,Go,Golang,Programming,Programming Languages,Software Engineering,https://medium.com/stackademic/learning-go-8-error-handling-3caf0fd0b934
-Inside AutoGen: Chapter 8 — Core | Models,Model Clients & Model Context,LLM,Autogen,Agentic AI,Generative Ai Tools,Llm,Agents,https://medium.com/towardsdev/inside-autogen-chapter-8-core-models-23cde36b795e
+Built with LangGraph! #24: Memory,"Short-Term, Long-Term, and Beyond",LLM,Langgraph,Langchain,Agents,Agentic AI,Llm,https://medium.com/@okanyenigun/built-with-langgraph-24-memory-e96537cc1b15
+Recurrent Neural Networks Explained Simply,Memory in Neural Networks: Understanding RNNs,Deep Learning,Deep Learning,NLP,Artificial Intelligence,Neural Networks,Time Series Forecasting,https://medium.com/ai-in-plain-english/recurrent-neural-networks-explained-simply-47e21bc5f949
+Built with LangGraph! #23: Subgraphs,Shared State & Different State Subgraphs,LLM,Langgraph,Langchain,Agentic AI,Agents,Llm,https://medium.com/ai-mind-labs/built-with-langgraph-23-subgraphs-8b7e08529bbf
+Simplex Method Stalling: The Pitfalls of Degeneracy,The Pitfalls of Degeneracy in the Simplex Method — and How Perturbation Fixes It,Optimization,Optimization,Linear Programming,Math,Simplex Method,Equation,https://medium.com/stackademic/simplex-method-stalling-the-pitfalls-of-degeneracy-5334c36e5cf7
+Built with LangGraph! #22: Adaptive RAG,Adaptive RAG Agent,LLM,Langgraph,Langchain,AI Agent,Agentic AI,Llm,https://medium.com/towardsdev/built-with-langgraph-22-adaptive-rag-94d85c2687a8

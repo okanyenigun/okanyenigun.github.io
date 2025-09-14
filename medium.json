@@ -1,5 +1,632 @@
 [
   {
+    "Title": "Built with LangGraph! #24: Memory",
+    "Subtitle": "Short-Term, Long-Term, and Beyond",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agents",
+    "Tag4": "Agentic AI",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/@okanyenigun/built-with-langgraph-24-memory-e96537cc1b15"
+  },
+  {
+    "Title": "Recurrent Neural Networks Explained Simply",
+    "Subtitle": "Memory in Neural Networks: Understanding RNNs",
+    "Topic": "Deep Learning",
+    "Tag1": "Deep Learning",
+    "Tag2": "NLP",
+    "Tag3": "Artificial Intelligence",
+    "Tag4": "Neural Networks",
+    "Tag5": "Time Series Forecasting",
+    "URL": "https://medium.com/ai-in-plain-english/recurrent-neural-networks-explained-simply-47e21bc5f949"
+  },
+  {
+    "Title": "Built with LangGraph! #23: Subgraphs",
+    "Subtitle": "Shared State & Different State Subgraphs",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/ai-mind-labs/built-with-langgraph-23-subgraphs-8b7e08529bbf"
+  },
+  {
+    "Title": "Simplex Method Stalling: The Pitfalls of Degeneracy",
+    "Subtitle": "The Pitfalls of Degeneracy in the Simplex Method : and How Perturbation Fixes It",
+    "Topic": "Optimization",
+    "Tag1": "Optimization",
+    "Tag2": "Linear Programming",
+    "Tag3": "Math",
+    "Tag4": "Simplex Method",
+    "Tag5": "Equation",
+    "URL": "https://medium.com/stackademic/simplex-method-stalling-the-pitfalls-of-degeneracy-5334c36e5cf7"
+  },
+  {
+    "Title": "Built with LangGraph! #22: Adaptive RAG",
+    "Subtitle": "Adaptive RAG Agent",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "AI Agent",
+    "Tag4": "Agentic AI",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-22-adaptive-rag-94d85c2687a8"
+  },
+  {
+    "Title": "Built with LangGraph! #21: Self-RAG",
+    "Subtitle": "Self-Grading RAG Agent",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "AI Agent",
+    "Tag4": "Agentic AI",
+    "Tag5": "Llm",
+    "URL": "https://towardsdev.com/built-with-langgraph-21-self-rag-381ab952da6b"
+  },
+  {
+    "Title": "Built with LangGraph! #20: C-RAG Agent",
+    "Subtitle": "Corrective RAG",
+    "Topic": "LLM",
+    "Tag1": "Langchain",
+    "Tag2": "Langgraph",
+    "Tag3": "Agentic AI",
+    "Tag4": "Retrieval Augmented Gen",
+    "Tag5": "Agentic RAG",
+    "URL": "https://medium.com/ai-in-plain-english/built-with-langgraph-20-c-rag-agent-e77ace2b2499"
+  },
+  {
+    "Title": "MARS: Multivariate Adaptive Regression Splines",
+    "Subtitle": "MARS for Time Series",
+    "Topic": "Data Science",
+    "Tag1": "Time Series Forecasting",
+    "Tag2": "Time Series Analysis",
+    "Tag3": "Data Science",
+    "Tag4": "Machine Learning",
+    "Tag5": "Regression",
+    "URL": "https://medium.com/python-in-plain-english/mars-multivariate-adaptive-regression-splines-d8a55532c486"
+  },
+  {
+    "Title": "Built with LangGraph! #19: State Machines",
+    "Subtitle": "Finite State Machines and LangGraph",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agents",
+    "Tag4": "Agentic AI",
+    "Tag5": "State Machine",
+    "URL": "https://medium.com/stackademic/built-with-langgraph-19-state-machines-24e9c5de8869"
+  },
+  {
+    "Title": "Modern Monitoring for Django: A Prometheus and Grafana Tutorial",
+    "Subtitle": "Django Under the Microscope: Metrics and Dashboards with Prometheus & Grafana",
+    "Topic": "Django",
+    "Tag1": "Django",
+    "Tag2": "Prometheus",
+    "Tag3": "Grafana",
+    "Tag4": "Software Development",
+    "Tag5": "Web Development",
+    "URL": "https://medium.com/codetodeploy/modern-monitoring-for-django-a-prometheus-and-grafana-tutorial-8d05294da011"
+  },
+  {
+    "Title": "Built with LangGraph! #18: RAG Agents",
+    "Subtitle": "Agentic RAG Workflow",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/codetodeploy/built-with-langgraph-18-rag-agents-b1c0bb0832f6"
+  },
+  {
+    "Title": "The MLOps Maturity Playbook: Practical Steps to Production-Ready ML",
+    "Subtitle": "From Chaos to Automation: A Practical Guide to MLOps Maturity Levels",
+    "Topic": "Data Engineering",
+    "Tag1": "Machine Learning",
+    "Tag2": "Data Science",
+    "Tag3": "MLOps",
+    "Tag4": "DevOps",
+    "Tag5": "Python",
+    "URL": "https://medium.com/devops-dev/the-mlops-maturity-playbook-practical-steps-to-production-ready-ml-204005b9b3a6"
+  },
+  {
+    "Title": "Built with LangGraph! #17: Checkpoints",
+    "Subtitle": "Checkpoints & Persistence",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-17-checkpoints-2d1d54e1464b"
+  },
+  {
+    "Title": "Keep It Simple, Stupid: A Practical Guide to KISS in Software Development",
+    "Subtitle": "KISS in Action: Concrete Examples Every Developer Should Know",
+    "Topic": "Software Engineering",
+    "Tag1": "Software Engineering",
+    "Tag2": "Software Development",
+    "Tag3": "Programming",
+    "Tag4": "Python",
+    "Tag5": "Software",
+    "URL": "https://medium.com/python-in-plain-english/keep-it-simple-stupid-a-practical-guide-to-kiss-in-software-development-87f57e13c90f"
+  },
+  {
+    "Title": "Built with LangGraph! #16: Streaming",
+    "Subtitle": "Word-by-Word",
+    "Topic": "Langgraph",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/codetodeploy/built-with-langgraph-16-streaming-e572afd298e7"
+  },
+  {
+    "Title": "GPU Specs Demystified: The Purpose Each Component Serves",
+    "Subtitle": "RTX 5090 Phantom Under the Hood",
+    "Topic": "Hardware",
+    "Tag1": "GPU",
+    "Tag2": "NVIDIA",
+    "Tag3": "Hardware",
+    "Tag4": "Artificial Intelligence",
+    "Tag5": "Graphics",
+    "URL": "https://medium.com/@okanyenigun/gpu-specs-demystified-the-purpose-each-component-serves-c64ae19aabba"
+  },
+  {
+    "Title": "Built with LangGraph! #15: Hierarchical Agent Teams",
+    "Subtitle": "A Guide to Modular Agent Orchestration",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/ai-in-plain-english/built-with-langgraph-15-hierarchical-agent-teams-4941988698de"
+  },
+  {
+    "Title": "AWS IAM Explained: Foundations of Cloud Security and Access Control",
+    "Subtitle": "Getting Started with AWS IAM: The Essential Guide to Identity and Access Management",
+    "Topic": "Cloud",
+    "Tag1": "AWS",
+    "Tag2": "AWS IAM",
+    "Tag3": "Cloud Computing",
+    "Tag4": "Cloud",
+    "Tag5": "Authentication",
+    "URL": "https://medium.com/aws-tip/aws-iam-explained-foundations-of-cloud-security-and-access-control-facc866e555c"
+  },
+  {
+    "Title": "Built with LangGraph! #14: Supervisor Agents",
+    "Subtitle": "Agents as a Tool",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/@okanyenigun/built-with-langgraph-14-supervisor-agents-89c9b8d2c403"
+  },
+  {
+    "Title": "'Not Really' Understanding Quantum Computing: Part 1: Complex Numbers",
+    "Subtitle": "Why √-1 Isn't Just Math Nonsense",
+    "Topic": "Quantum Computing",
+    "Tag1": "Quantum Computing",
+    "Tag2": "Quantum Physics",
+    "Tag3": "Quantum Mechanics",
+    "Tag4": "Mathematics",
+    "Tag5": "Physics",
+    "URL": "https://medium.com/stackademic/not-really-understanding-quantum-computing-part-1-complex-numbers-ac9710502974"
+  },
+  {
+    "Title": "Built with LangGraph! #13: ReAct Agent",
+    "Subtitle": "ReAct Agents Using LangGraph",
+    "Topic": "Langgraph",
+    "Tag1": "Langchain",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Langgraph",
+    "URL": "https://medium.com/ai-in-plain-english/built-with-langgraph-13-react-agent-1138973e9252"
+  },
+  {
+    "Title": "Hooks 101: A Beginner's Guide to Modern React",
+    "Subtitle": "Level Up Your React Apps with Hooks",
+    "Topic": "React",
+    "Tag1": "React",
+    "Tag2": "Web Development",
+    "Tag3": "Software Engineering",
+    "Tag4": "Software Development",
+    "Tag5": "JavaScript",
+    "URL": "https://medium.com/stackademic/hooks-101-a-beginners-guide-to-modern-react-6646c6fdd862"
+  },
+  {
+    "Title": "Silero VAD: The Lightweight, High-Precision Voice Activity Detector",
+    "Subtitle": "Silero VAD in Action: Python & C++ Integration Guide",
+    "Topic": "Deep Learning",
+    "Tag1": "VAD",
+    "Tag2": "Audio Classification",
+    "Tag3": "Deep Learning",
+    "Tag4": "Speech Recognition",
+    "Tag5": "Cpp",
+    "URL": "https://medium.com/stackademic/silero-vad-the-lightweight-high-precision-voice-activity-detector-26889a862636"
+  },
+  {
+    "Title": "Web Security 101: Seeing the Real Difference with HTTPS and HSTS",
+    "Subtitle": "Encrypt Everything: The Practical Beginner's Guide to HTTPS and HSTS",
+    "Topic": "Cybersecurity",
+    "Tag1": "Web Security",
+    "Tag2": "Security",
+    "Tag3": "Cybersecurity",
+    "Tag4": "Software Engineering",
+    "Tag5": "Web Development",
+    "URL": "https://medium.com/devops-dev/web-security-101-seeing-the-real-difference-with-https-and-hsts-a76f2b549e93"
+  },
+  {
+    "Title": "Built with LangGraph! #12: Multi-Agent Collaboration",
+    "Subtitle": "Multi-Agent Network",
+    "Topic": "LLM",
+    "Tag1": "Langchain",
+    "Tag2": "Langgraph",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/dev-genius/built-with-langgraph-12-multi-agent-collaboration-bc32f3c6d8dc"
+  },
+  {
+    "Title": "Understanding Stack and Heap Memory",
+    "Subtitle": "Stack vs Heap",
+    "Topic": "Software Engineering",
+    "Tag1": "Programming",
+    "Tag2": "Software Engineering",
+    "Tag3": "Software Architecture",
+    "Tag4": "Memory Management",
+    "Tag5": "Programming Languages",
+    "URL": "https://medium.com/towardsdev/understanding-stack-and-heap-memory-a96e90f9c982"
+  },
+  {
+    "Title": "Built with LangGraph! #11: Parallelization",
+    "Subtitle": "Run in Parallel",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/codetodeploy/built-with-langgraph-11-parallelization-efa2ccdba2e0"
+  },
+  {
+    "Title": "Hopfield's Memories, Hinton's Learning: Why These Scientists Earned a Nobel for Physics",
+    "Subtitle": "From Spin Glasses to Deep Learning: How Hopfield & Hinton Sculpted Modern AI",
+    "Topic": "Deep Learning",
+    "Tag1": "Artificial Intelligence",
+    "Tag2": "AI",
+    "Tag3": "Nobel Prize",
+    "Tag4": "Physics",
+    "Tag5": "Deep Learning",
+    "URL": "https://medium.com/stackademic/hopfields-memories-hinton-s-learning-why-these-physicists-earned-a-nobel-for-ai-7dd48026a004"
+  },
+  {
+    "Title": "Synthetic-First Sentiment Analysis: Building and Fine-Tuning Without Real Data",
+    "Subtitle": "No Real Data, No Problem with Sugardata",
+    "Topic": "NLP",
+    "Tag1": "Sugardata",
+    "Tag2": "Synthetic Data",
+    "Tag3": "Data",
+    "Tag4": "Data Science",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/towardsdev/synthetic-first-sentiment-analysis-building-and-fine-tuning-without-real-data-ea4088e8466a"
+  },
+  {
+    "Title": "Smarter Sentiment Analysis: How Synthetic Data Makes a Difference",
+    "Subtitle": "From Data Imbalance to Model Excellence: Applying sugardata to Financial Sentiment",
+    "Topic": "NLP",
+    "Tag1": "Sugardata",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "NLP",
+    "Tag4": "Synthetic Data",
+    "Tag5": "Data",
+    "URL": "https://medium.com/python-in-plain-english/smarter-sentiment-analysis-how-synthetic-data-makes-a-difference-9424cbd80a7b"
+  },
+  {
+    "Title": "Bandit Algorithms in Action: Practical Dynamic Pricing for Restaurants",
+    "Subtitle": "Smart Restaurant Pricing with Multi-Armed Bandits: A Hands-On Tutorial with Real Data",
+    "Topic": "Data Science",
+    "Tag1": "API",
+    "Tag2": "Reinforcement Learning",
+    "Tag3": "Python",
+    "Tag4": "Machine Learning",
+    "Tag5": "Data Science",
+    "URL": "https://medium.com/python-in-plain-english/bandit-algorithms-in-action-practical-dynamic-pricing-for-restaurants-b391fe742cc3"
+  },
+  {
+    "Title": "Starlette Unveiled: The Lightweight Powerhouse for Async Python Web Development",
+    "Subtitle": "Mastering Starlette: Your Guide to Routing and Request Handling",
+    "Topic": "Software Engineering",
+    "Tag1": "Starlette",
+    "Tag2": "Web Development",
+    "Tag3": "Python",
+    "Tag4": "Fastapi",
+    "Tag5": "API",
+    "URL": "https://medium.com/gitconnected/starlette-unveiled-the-lightweight-powerhouse-for-async-python-web-development-57efd0197bbf"
+  },
+  {
+    "Title": "Production-Ready ML: Building and Serving a Churn Model with FastAPI",
+    "Subtitle": "Predicting Customer Churn with XGBoost, FastAPI, and Docker",
+    "Topic": "Machine Learning",
+    "Tag1": "Machine Learning",
+    "Tag2": "Deep Learning",
+    "Tag3": "API",
+    "Tag4": "Fastapi",
+    "Tag5": "Docker",
+    "URL": "https://python.plainenglish.io/production-ready-ml-building-and-serving-a-churn-model-with-fastapi-e5cf3f22bfb2"
+  },
+  {
+    "Title": "Built with LangGraph! #10: LLM Augmentation",
+    "Subtitle": "LLM Augmentation & Prompt Chaining",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Llm",
+    "Tag4": "NLP",
+    "Tag5": "Agentic AI",
+    "URL": "https://medium.com/dev-genius/built-with-langgraph-10-llm-augmentation-b0af6d1e217b"
+  },
+  {
+    "Title": "NLTK #6: Text Classification",
+    "Subtitle": "Fundamentals of Text Classification in NLP",
+    "Topic": "NLP",
+    "Tag1": "NLTK",
+    "Tag2": "Machine Learning",
+    "Tag3": "NLP",
+    "Tag4": "Data Science",
+    "Tag5": "Classification",
+    "URL": "https://medium.com/dev-genius/nltk-6-text-classification-6acacd542d60"
+  },
+  {
+    "Title": "Built with LangGraph! #9: Looping Graphs",
+    "Subtitle": "How Looping and Conditional Logic Can Be Orchestrated?",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Llm",
+    "Tag4": "Agentic AI",
+    "Tag5": "Agents",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-9-looping-graphs-b689e42677d7"
+  },
+  {
+    "Title": "Built with LangGraph! #8: Conditional Graphs",
+    "Subtitle": "Introduction to Dynamic Routing",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/aws-tip/built-with-langgraph-8-conditional-graphs-6143b65e69da"
+  },
+  {
+    "Title": "How to Evaluate Your RAG Pipelines with Giskard",
+    "Subtitle": "A Gentle Guide to RAG Evaluation Using Giskard",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Retrieval Augmented Gen",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Model Evaluation",
+    "Tag5": "Giskard",
+    "URL": "https://medium.com/dev-genius/how-to-evaluate-your-rag-pipelines-with-giskard-0030bff1be95"
+  },
+  {
+    "Title": "Built with LangGraph! #7: Sequential Graphs",
+    "Subtitle": "Two-Node Sequential Graph",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-7-sequential-graphs-d8ca43f5c7ea"
+  },
+  {
+    "Title": "Built with LangGraph! #6: First Node",
+    "Subtitle": "Building Simple Stateful Workflows",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/python-in-plain-english/built-with-langgraph-6-first-node-d61fdc30bca4"
+  },
+  {
+    "Title": "Built with LangGraph! #5: A LangChain-Native ReAct Agent",
+    "Subtitle": "A Simple Agent in LangChain",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Llm",
+    "Tag4": "Agentic AI",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/stackademic/built-with-langgraph-5-a-langchain-native-react-agent-b0630c77d29c"
+  },
+  {
+    "Title": "Built with LangGraph! #4: Components",
+    "Subtitle": "Core Components of LangGraph",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-4-components-d26701f7d16d"
+  },
+  {
+    "Title": "Dense Passage Retrieval: The Backbone of Modern Open-Domain Question Answering",
+    "Subtitle": "Unlocking Open-Domain Q&A with Dense Passage Retrieval",
+    "Topic": "NLP",
+    "Tag1": "Generative Ai Tools",
+    "Tag2": "RAG",
+    "Tag3": "Retrieval Augmented Gen",
+    "Tag4": "Langchain",
+    "Tag5": "NLP",
+    "URL": "https://medium.com/python-in-plain-english/dense-passage-retrieval-the-backbone-of-modern-open-domain-question-answering-0241033a779e"
+  },
+  {
+    "Title": "Built with LangGraph! #3: Structured Outputs",
+    "Subtitle": "Structured LLM Outputs",
+    "Topic": "LLM",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/towardsdev/built-with-langgraph-3-structured-outputs-4707284be57e"
+  },
+  {
+    "Title": "Deploying an Italian Sentiment Classifier: Dataset Translation, Model Training, and API in One Guide",
+    "Subtitle": "End-to-End Italian Sentiment Analysis: Translating Data, Fine-Tuning Models, and Serving with FastAPI",
+    "Topic": "NLP",
+    "Tag1": "Fine Tuning",
+    "Tag2": "API",
+    "Tag3": "Sentiment Analysis",
+    "Tag4": "Docker",
+    "Tag5": "Containers",
+    "URL": "https://medium.com/ai-in-plain-english/deploying-an-italian-sentiment-classifier-dataset-translation-model-training-and-api-in-one-00149a29f2d8"
+  },
+  {
+    "Title": "Built with LangGraph! #2: Typing",
+    "Subtitle": "Type Hints or Annotations",
+    "Topic": "Langchain",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Agents",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/@okanyenigun/built-with-langgraph-2-typing-dbe55e8bd39b"
+  },
+  {
+    "Title": "Built with LangGraph! #1: Hello World",
+    "Subtitle": "Getting Started with LangGraph",
+    "Topic": "Langchain",
+    "Tag1": "Langgraph",
+    "Tag2": "Langchain",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Agents",
+    "URL": "https://medium.com/aws-tip/built-with-langgraph-1-hello-world-7f1ea87ed5b9"
+  },
+  {
+    "Title": "LangChain in Chains #52: Async Programming",
+    "Subtitle": "Async programming with langchain",
+    "Topic": "Langchain",
+    "Tag1": "Langchain",
+    "Tag2": "Llm",
+    "Tag3": "Generative Ai Tools",
+    "Tag4": "Programming",
+    "Tag5": "Large Language Models",
+    "URL": "https://medium.com/python-in-plain-english/langchain-in-chains-52-async-programming-e23ba9cba028"
+  },
+  {
+    "Title": "LangChain in Chains #51: vLLM",
+    "Subtitle": "vLLM Inference",
+    "Topic": "Langchain",
+    "Tag1": "VLLM",
+    "Tag2": "Ollama",
+    "Tag3": "Langchain",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/devops-dev/langchain-in-chains-51-vllm-33f465aa647d"
+  },
+  {
+    "Title": "vLLM: A Quick Start",
+    "Subtitle": "Introduction to vLLM",
+    "Topic": "LLM",
+    "Tag1": "VLLM",
+    "Tag2": "Llm",
+    "Tag3": "Llm Applications",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Data Engineering",
+    "URL": "https://medium.com/towardsdev/vllm-a-quick-start-cf1c48aa5890"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 13 : Core | Reflection Pattern",
+    "Subtitle": "Multi-Agent Reflection Design Pattern",
+    "Topic": "LLM",
+    "Tag1": "Autogen",
+    "Tag2": "Agentic AI",
+    "Tag3": "Agents",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Llm",
+    "URL": "https://medium.com/python-in-plain-english/inside-autogen-chapter-13-core-reflection-pattern-7c389723eaab"
+  },
+  {
+    "Title": "Inside LLM Guard: The Ultimate Toolkit for Secure Language AI",
+    "Subtitle": "From Prompt Injection to Data Leakage: How LLM Guard Protects Your LLMs",
+    "Topic": "LLM",
+    "Tag1": "Llm",
+    "Tag2": "Generative Ai Tools",
+    "Tag3": "Artificial Intelligence",
+    "Tag4": "Llm Guardrails",
+    "Tag5": "Llm Applications",
+    "URL": "https://medium.com/gitconnected/inside-llm-guard-the-ultimate-toolkit-for-secure-language-ai-0539f4375c87"
+  },
+  {
+    "Title": "Fine-Tuning a Masked Language Model for Domain-Specific Understanding",
+    "Subtitle": "Customizing Fill-Mask Predictions Through Domain Adaptation",
+    "Topic": "LLM",
+    "Tag1": "Fine Tuning",
+    "Tag2": "Llm",
+    "Tag3": "Transformers",
+    "Tag4": "NLP",
+    "Tag5": "Deep Learning",
+    "URL": "https://medium.com/ai-in-plain-english/fine-tuning-a-masked-language-model-for-domain-specific-understanding-a74b556cc49d"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 12 : Core | Multi-Agent Debate Pattern",
+    "Subtitle": "Multi-Agent Debate",
+    "Topic": "LLM",
+    "Tag1": "Autogen",
+    "Tag2": "Agents",
+    "Tag3": "Agentic AI",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Use Cases",
+    "URL": "https://medium.com/devops-dev/inside-autogen-chapter-12-core-multi-agent-debate-pattern-6b1b287a0edc"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 11: Core | Mixture of Agents Pattern",
+    "Subtitle": "Mixture of Agents",
+    "Topic": "LLM",
+    "Tag1": "Autogen",
+    "Tag2": "Agentic AI",
+    "Tag3": "Agents",
+    "Tag4": "Llm",
+    "Tag5": "Generative Ai Tools",
+    "URL": "https://medium.com/@okanyenigun/inside-autogen-chapter-11-core-mixture-of-agents-pattern-223c2f187f71"
+  },
+  {
+    "Title": "Inside AutoGen: Chapter 10: Core | Design Patterns 2",
+    "Subtitle": "Group Chat & Handoffs",
+    "Topic": "LLM",
+    "Tag1": "Agents",
+    "Tag2": "Agentic AI",
+    "Tag3": "Llm",
+    "Tag4": "Generative Ai Tools",
+    "Tag5": "Autogen",
+    "URL": "https://medium.com/python-in-plain-english/inside-autogen-chapter-10-core-design-patterns-2-ac8d7027035e"
+  },
+  {
+    "Title": "The Data Triangle: Understanding Relational, Document, and Graph Models",
+    "Subtitle": "Data Architecture 101: Navigating Relational, Document, and Graph Paradigms",
+    "Topic": "Data Engineering",
+    "Tag1": "Data Engineering",
+    "Tag2": "Database",
+    "Tag3": "Data",
+    "Tag4": "Software Engineering",
+    "Tag5": "Database Design",
+    "URL": "https://medium.com/stackademic/the-data-triangle-understanding-relational-document-and-graph-models-02b12bda6ea4"
+  },
+  {
     "Title": "How to Fine-Tune a Seq2Seq Translation Model on Hugging Face",
     "Subtitle": "Training Your Translator: Fine-Tuning on Hugging Face Made Easy",
     "Topic": "LLM",
@@ -22,7 +649,7 @@
     "URL": "https://medium.com/insiderfinance/python-trading-guide-atr-80ed881876cb"
   },
   {
-    "Title": "Inside AutoGen: Chapter 9 - Core | Design Patterns 1",
+    "Title": "Inside AutoGen: Chapter 9 : Core | Design Patterns 1",
     "Subtitle": "Multi-Agent Design Patterns Part 1",
     "Topic": "LLM",
     "Tag1": "Autogen",
@@ -44,7 +671,7 @@
     "URL": "https://medium.com/stackademic/learning-go-8-error-handling-3caf0fd0b934"
   },
   {
-    "Title": "Inside AutoGen: Chapter 8 - Core | Models",
+    "Title": "Inside AutoGen: Chapter 8 : Core | Models",
     "Subtitle": "Model Clients & Model Context",
     "Topic": "LLM",
     "Tag1": "Autogen",
@@ -66,7 +693,7 @@
     "URL": "https://medium.com/gitconnected/federated-learning-a-beginners-guide-with-image-classification-in-tff-c297b8c98e40"
   },
   {
-    "Title": "Inside AutoGen: Chapter 7- Core | Agents & Runtime",
+    "Title": "Inside AutoGen: Chapter 7: Core | Agents & Runtime",
     "Subtitle": "Agents, Agent Runtime, and Messages",
     "Topic": "LLM",
     "Tag1": "Agentic",
@@ -88,7 +715,7 @@
     "URL": "https://medium.com/stackademic/two-legs-one-problem-an-intuitive-guide-to-multicollinearity-ea2e14636c3f"
   },
   {
-    "Title": "Inside AutoGen: Chapter 6 - Memory",
+    "Title": "Inside AutoGen: Chapter 6 : Memory",
     "Subtitle": "Memory And RAG",
     "Topic": "LLM",
     "Tag1": "Multi Agent Systems",
@@ -110,7 +737,7 @@
     "URL": "https://medium.com/gitconnected/scala-15-spark-text-feature-transformers-d536996ab9cc"
   },
   {
-    "Title": "Inside AutoGen: Chapter 5 - More Teams",
+    "Title": "Inside AutoGen: Chapter 5 : More Teams",
     "Subtitle": "3 More Teams",
     "Topic": "LLM",
     "Tag1": "Agentic AI",
@@ -132,7 +759,7 @@
     "URL": "https://medium.com/ai-mind-labs/yolo-101-a-practical-introduction-to-single-shot-object-detection-23f04c52a218"
   },
   {
-    "Title": "Inside AutoGen: Chapter 4 - Custom Agents",
+    "Title": "Inside AutoGen: Chapter 4 : Custom Agents",
     "Subtitle": "Custom AgentChat Agents",
     "Topic": "LLM",
     "Tag1": "Agentic AI",
@@ -330,7 +957,7 @@
     "URL": "https://medium.com/devops-dev/kubernetes-101-a-beginners-guide-to-container-orchestration-5c7d2ae8ba32"
   },
   {
-    "Title": "Inside AutoGen: Chapter 3 - Teams",
+    "Title": "Inside AutoGen: Chapter 3 : Teams",
     "Subtitle": "Managing Teams",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -363,7 +990,7 @@
     "URL": "https://medium.com/aws-tip/getting-started-with-microservices-key-concepts-every-beginner-should-know-9d6d2bb5cb19"
   },
   {
-    "Title": "Inside AutoGen: Chapter 2 - Agents",
+    "Title": "Inside AutoGen: Chapter 2 : Agents",
     "Subtitle": "AgentChat's Agents",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -484,7 +1111,7 @@
     "URL": "https://medium.com/stackademic/what-is-linear-programming-8f1324e0a021"
   },
   {
-    "Title": "Inside AutoGen: Chapter 1: Introducing AgentChat",
+    "Title": "Inside AutoGen: Chapter 1 :Introducing AgentChat",
     "Subtitle": "An Overview of AgentChat's Features",
     "Topic": "LLM",
     "Tag1": "Llm",
@@ -572,7 +1199,7 @@
     "URL": "https://medium.com/ai-advances/prototyping-made-easy-with-auto-sklearn-09f8f6c7ee4f"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 6 - Memory Basics",
+    "Title": "Mastering CrewAI: Chapter 6 : Memory Basics",
     "Subtitle": "Memory Types in CrewAI",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -594,7 +1221,7 @@
     "URL": "https://medium.com/@okanyenigun/auto-keras-for-effortless-deep-learning-6a6c9c16bae7"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 5- Train, Test, Replay & Plan",
+    "Title": "Mastering CrewAI: Chapter 5: Train, Test, Replay & Plan",
     "Subtitle": "Train, Test, Replay & Plan",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -616,7 +1243,7 @@
     "URL": "https://medium.com/python-in-plain-english/dry-programming-principle-6d48a63c5bfd"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 4 - Processes",
+    "Title": "Mastering CrewAI: Chapter 4 : Processes",
     "Subtitle": "Sequential & Hierarchical Processes",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -638,8 +1265,8 @@
     "URL": "https://medium.com/python-in-plain-english/yagni-programming-principle-9ea497c4bead"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 3- Knowledge",
-    "Subtitle": "Knowledge - CrewAI",
+    "Title": "Mastering CrewAI: Chapter 3: Knowledge",
+    "Subtitle": "Knowledge : CrewAI",
     "Topic": "LLM",
     "Tag1": "Llm",
     "Tag2": "Agents",
@@ -671,7 +1298,7 @@
     "URL": "https://medium.com/gitconnected/mastering-domain-knowledge-an-introduction-to-domain-adaptive-pretraining-dapt-87930a97448b"
   },
   {
-    "Title": "NLTK #: 5: POS Tags",
+    "Title": "NLTK #4:5: POS Tags",
     "Subtitle": "Categorizing and Tagging Words",
     "Topic": "NLP",
     "Tag1": "NLP",
@@ -682,7 +1309,7 @@
     "URL": "https://medium.com/stackademic/nltk-4-5-pos-tags-e01e6a42eba4"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 2- Flows",
+    "Title": "Mastering CrewAI: Chapter 2: Flows",
     "Subtitle": "Event-Driven AI Workflows",
     "Topic": "LLM",
     "Tag1": "Agents",
@@ -704,7 +1331,7 @@
     "URL": "https://medium.com/dev-genius/nltk-3-processing-text-5060d1c79ea7"
   },
   {
-    "Title": "Mastering CrewAI: Chapter 1 - Your First Intelligent Workflow",
+    "Title": "Mastering CrewAI: Chapter 1 : Your First Intelligent Workflow",
     "Subtitle": "The Basics of Agents and Tasks",
     "Topic": "LLM",
     "Tag1": "Llm",
@@ -1122,7 +1749,7 @@
     "URL": "https://medium.com/towardsdev/langchain-in-chains-38-function-calling-b7e9de9ccab1"
   },
   {
-    "Title": "Run Gemma 2: 2B - 9B - 27B",
+    "Title": "Run Gemma 2: 2B : 9B : 27B",
     "Subtitle": "Step-by-Step Guide to Running Gemma 2 2B, 9B, and 27B Models",
     "Topic": "LLM",
     "Tag1": "Llm",
@@ -1320,7 +1947,7 @@
     "URL": "https://medium.com/devops-dev/langchain-in-chains-32-image-to-text-c2e62601be49?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "Run Llama 3.1: 8B - 70B - 450B",
+    "Title": "Run Llama 3.1: 8B : 70B : 450B",
     "Subtitle": "Step-by-Step Guide to Running LLama 3.1 8B, 70B, and 405B Models",
     "Topic": "LLM",
     "Tag1": "Generative Ai Tools",
@@ -3784,7 +4411,7 @@
     "URL": "https://medium.com/towardsdev/what-is-a-voxel-and-how-to-display-them-5bc3a76521e5?source=your_stories_page-------------------------------------"
   },
   {
-    "Title": "RESTful Django - Django REST Framework",
+    "Title": "RESTful Django : Django REST Framework",
     "Subtitle": "Creating a Rest API in Django",
     "Topic": "Django",
     "Tag1": "Django",

@@ -1,3 +1,7 @@
+.summary-text {
+  text-align: left;
+  font-size: 1.25em;
+}
 body {
   background-color: #d4d9ed;
   height: 100vh;

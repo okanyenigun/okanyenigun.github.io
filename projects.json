@@ -134,16 +134,6 @@
         }
     },
     {
-        "type": "Agent",
-        "title": "Prompt Engineering Agent",
-        "support": "CrewAI",
-        "description": "AI agent system that transforms initial prompts into professional-grade prompts.",
-        "tech": "CrewAI",
-        "links": {
-            "GitHub": "https://github.com/okanyenigun/prompter-crew"
-        }
-    },
-    {
         "type": "Model",
         "title": "QA Model",
         "support": "BERT",
@@ -224,7 +214,45 @@
             "Crates": "https://crates.io/crates/rotoml",
             "GitHub": "https://github.com/okanyenigun/rotoml"
         }
+    },
+    {
+        "type": "Package",
+        "title": "GoFIN",
+        "support": "Go Library",
+        "description": "A financial technical analysis library in Go",
+        "tech": "Go",
+        "links": {
+            "GitHub": "https://github.com/okanyenigun/gofin"
+        }
+    },
+    {
+        "type": "App",
+        "title": "OMNextract",
+        "support": "Generative AI Application",
+        "description": "An any-to-any medium conversion app leveraging multimodal generative AI",
+        "tech": "Generative AI",
+        "links": {
+            "website": "https://www.omnextract.com/"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "Text Classification - Code Detector",
+        "support": "Electra",
+        "description": "A fine-tuned Electra model for detecting code snippets in text. LLM guardrail.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/turkish-code-detector"
+        }
+    },
+    {
+        "type": "Model",
+        "title": "NER Model - Turkish Organization",
+        "support": "BERT",
+        "description": "A fine-tuned BERT model for Turkish named entity recognition (NER) focused on organizations, designed to identify and classify organization names in Turkish documents for LLM guardrails.",
+        "tech": "PyTorch",
+        "links": {
+            "Hugging Face": "https://huggingface.co/yeniguno/bert-turkish-organization-ner-uncased"
+        }
     }
-
-
 ]
